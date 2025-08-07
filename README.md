@@ -36,5 +36,5 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 - Veronese Passarella, M. (2024). *Notes for the 17th EAEPE Summer School*. [GitHub Repository](https://github.com/marcoverpas/EAEPE_summer_school_2024).
 
-- Veronese Passarella, M. (2025). *Issues in Monetary Policies and Monetary Circuits*. [GitHub Repository, Sections B1–B5](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025).
+- Veronese Passarella, M. (2025). *Issues in Monetary Policies and Monetary Circuits*. [GitHub Repository](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025), Sections B1–B5.
 
