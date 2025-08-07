@@ -24,6 +24,12 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 \:construction: Work in progress!
 
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc.png
+" width="800">
+</figure>
+
 ---
 
 ## Playing with the Model
