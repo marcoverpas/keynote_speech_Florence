@@ -24,8 +24,11 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 - Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., & Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236. DOI: 10.1016/j.ecolecon.2025.108669
 
-- Godley, W., & Lavoie, M. (2007). *Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth*. Palgrave Macmillan. Chapters 1–4.
+- Godley, W., & Lavoie, M. (2007). *Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth*. Palgrave Macmillan. Chapters 1-4.
 
-- Miller, R. E., & Blair, P. D. (2009). *Input-Output Analysis: Foundations and Extensions*. Cambridge University Press, 2nd edition. Chapters 1–2.
+- Miller, R. E., & Blair, P. D. (2009). *Input-Output Analysis: Foundations and Extensions*. Cambridge University Press, 2nd edition. Chapters 1-2.
 
-- Veronese Passarella, M. (2025). *Issues in Monetary Policies and Monetary Circuits*. GitHub Repository, [Sections B1–B5](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025).
+- Veronese Passarella, M. (2024). *Notes for the 17th EAEPE Summer School*. [GitHub Repository](https://github.com/marcoverpas/EAEPE_summer_school_2024).
+
+- Veronese Passarella, M. (2025). *Issues in Monetary Policies and Monetary Circuits*. [GitHub Repository, Sections B1–B5](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025).
+
