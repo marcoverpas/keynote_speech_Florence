@@ -30,9 +30,7 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 \:construction: Work in progress!
 
-<a href="https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Launch-Shiny_App-blue?style=for-the-badge&logo=r" alt="Open Shiny App">
-</a>
+[![Open Shiny App](https://img.shields.io/badge/Launch-Shiny_App-blue?style=for-the-badge&logo=r)](https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/){:target="_blank" rel="noopener noreferrer"}
 
 ---
 
