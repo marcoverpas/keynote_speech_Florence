@@ -20,6 +20,12 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 ---
 
+## From Model PC to Model IO-PC
+
+\:construction: Work in progress!
+
+---
+
 ## References
 
 - Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., & Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
