@@ -20,6 +20,23 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 ---
 
+## Introduction
+
+Since the mid-1990s, **dynamic stochastic general equilibrium** (DSGE) models have dominated macroeconomics. Yet, these models are rarely applied to environmental issues. This is unsurprising: their small size and simplified “harmonic oscillator” dynamics make them ill-suited for analysing climate change, biodiversity loss, rebound effects, lock-in effects, commons management, or circular economy policies. **Standard neoclassical growth** (NG) models fare no better, as environmental variables typically have no impact on the structural drivers of growth (Rivera et al. 2018).
+
+To address environmental questions, mainstream economists often rely on two additional model classes: **integrated assessment models** (IAMs) and **computable general equilibrium** (CGE) models. IAMs explicitly link the economy to the biosphere and atmosphere, combining social, economic, and environmental modules to assess mitigation scenarios or estimate the social cost of carbon. However, many IAMs—especially cost-benefit variants—inherit the same controversial assumptions as DSGE and NG models: a unique, stable, socially optimal equilibrium, and a hyper-rational representative agent optimising intertemporal utility under constraints. CGE models, by contrast, are large-scale and grounded in input-output and national accounts data, making them rich in sectoral detail. Yet their behavioural equations are rooted in neoclassical equilibrium theory, and they typically compare only pre- and post-shock states without modelling the transition in between.
+
+### Alternative Modelling Approaches
+
+Two alternative frameworks offer a way forward: **demand-driven input-output** (IO) models and **stock-flow consistent** (SFC) macroeconomic models.
+
+- **IO models** capture interdependencies between industries and, like CGE models, can be extended to incorporate ecosystem-related variables. Their simplicity makes them highly transparent and data-driven, but they are essentially static, comparing two points in time without describing the path between them.  
+- **SFC models**—a class of system dynamics tools developed mainly by post-Keynesian economists—integrate flows and stocks across the economy and the environment in a fully consistent manner (Carnevali et al. 2019). They have become increasingly popular in ecological macroeconomics thanks to their flexibility: SFC models can simulate dynamic transitions, test policy scenarios, and explore feedback effects between the economy and the ecosystem. Their limitation is that they typically operate at a high level of aggregation, overlooking inter-industry detail.
+
+For many environmental applications, **combining IO and SFC approaches** can offer the best of both worlds: sectoral granularity from IO, dynamic and financial coherence from SFC. This hybrid perspective enables researchers to explore environmental transitions in a way that is both empirically grounded and dynamically rich.
+
+---
+
 ## Assembling Blocks: From Model PC to Model ECO-3IO-PC
 
 \:construction: Work in progress!
@@ -47,13 +64,18 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 ## References
 
+- Carnevali, E., Deleidi, M., Pariboni, R., & Veronese Passarella, M. (2019). **SFC dynamic models: features, limitations and developments**. In: P. Arestis and M. Sawyer (eds.), \textit{Frontiers of Heterodox Economics, Series: International Papers in Political Economy}, Basingstoke \& New York: Palgrave Macmillan, pp. 223-276.
+
 - Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., & Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
 
 - Godley, W., & Lavoie, M. (2007). *Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth*. Palgrave Macmillan. Chapters 1-4.
 
 - Miller, R. E., & Blair, P. D. (2009). *Input-Output Analysis: Foundations and Extensions*. Cambridge University Press, 2nd edition. Chapters 1-2.
 
+- Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). **The State of Applied Environmental Macroeconomics**, \textit{Revue de l'OFCE}, 157 (3): 133-149.  
+
 - Veronese Passarella, M. (2024). *Notes for the 17th EAEPE Summer School*. [GitHub Repository](https://github.com/marcoverpas/EAEPE_summer_school_2024).
+
 
 - Veronese Passarella, M. (2025). *Issues in Monetary Policies and Monetary Circuits*. [GitHub Repository](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025), Sections B1–B5.
 
