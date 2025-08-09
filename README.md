@@ -40,6 +40,10 @@ For many environmental applications, **combining IO and SFC approaches** can off
 
 ## Assembling Blocks: From Model PC to Model ECO-3IO-PC
 
+Arguably, when constructing a formal model, best practice is to tailor its features to the historically and geographically specific institutional characteristics of the region or country under consideration. However, building a model from scratch can be both time-consuming and technically demanding. This may discourage students and early-career researchers from engaging with formal modelling, particularly when the framework departs from standard neoclassical principles. Moreover, excessive model complexity can hinder the dissemination of results and impede constructive dialogue with policymakers.
+
+To address these challenges, an effective strategy is to develop the model by assembling pre-existing blocks... [to be continued]
+
 \:construction: Work in progress!
 
 <figure>
