@@ -75,7 +75,7 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 - Thomsen, S. F., Raza, H., & Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, Vol. 238, 108741. 
 
-- Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). **The State of Applied Environmental Macroeconomics**. \textit{Revue de l'OFCE}, 157 (3): 133-149.  
+- Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). **The State of Applied Environmental Macroeconomics**. *Revue de l'OFCE*, 157 (3): 133-149.  
 
 - Veronese Passarella, M. (2024). **Notes for the 17th EAEPE Summer School**. [GitHub Repository](https://github.com/marcoverpas/EAEPE_summer_school_2024).
 
