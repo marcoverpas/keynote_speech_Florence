@@ -157,7 +157,7 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 ---
 
-## A Complete Model
+## A More Advanced Model
 
 \:construction: Work in progress!
 
