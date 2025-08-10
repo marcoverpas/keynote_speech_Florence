@@ -156,8 +156,9 @@ One of the advantages of creating formal models using `R` is that they can be co
 [![Open Shiny App](https://img.shields.io/badge/Launch-Shiny_App-blue?style=for-the-badge&logo=r)](https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/)
 
 <figure>
-<img
-src="https://github.com/marcoverpas/figures/blob/main/laboratory.png" width="1000">
+<a href="https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/" target="_blank">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory.png" width="1000">
+</a>
 </figure>
 
 ---
