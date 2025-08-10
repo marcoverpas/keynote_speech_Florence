@@ -198,5 +198,7 @@ One of the advantages of creating formal models using `R` is that they can be co
 
 - Veronese Passarella, M. (2024). [**Notes for the 17th EAEPE Summer School**](https://github.com/marcoverpas/EAEPE_summer_school_2024). GitHub Repository.
 
+- Nikiforos, M., & Zezza, G. (2017). [**Stock-flow Consistent Macroeconomic Models: A Survey**](https://doi.org/10.1111/joes.12221). *Journal of Economic Surveys*, 3(5): 1204-1239.
+
 - Veronese Passarella, M. (2025). [**Issues in Monetary Policies and Monetary Circuits**](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025). GitHub Repository, Sections B1–B5.
 
