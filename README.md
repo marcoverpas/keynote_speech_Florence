@@ -128,7 +128,7 @@ Note: the superscript $T$ stands for the transpose of the matrix, turning a colu
 
 Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
 
-<!-- The main code for developing Model 3IO-PC and conducting experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R). -->
+<!-- The main `R` code for developing Model 3IO-PC and conducting experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R). -->
 
 <!-- Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of the main macro variables towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy. -->
 
@@ -151,7 +151,7 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 ## Playing with the Model
 
-One of the advantages of creating formal models using R is that they can be conveniently converted into online interactive models. Click the link below to open the simulation laboratory for Model ECO-3IO-PC.
+One of the advantages of creating formal models using `R` is that they can be conveniently converted into online interactive models. Click the link below to open the simulation laboratory for Model ECO-3IO-PC.
 
 [![Open Shiny App](https://img.shields.io/badge/Launch-Shiny_App-blue?style=for-the-badge&logo=r)](https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/)
 
