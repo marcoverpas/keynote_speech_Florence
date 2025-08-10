@@ -157,7 +157,7 @@ One of the advantages of creating formal models using `R` is that they can be co
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/laboratory.png" width="800">
+src="https://github.com/marcoverpas/figures/blob/main/laboratory.png" width="1000">
 </figure>
 
 ---
