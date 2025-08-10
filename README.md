@@ -149,7 +149,7 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/sankeys.png" width="500">
+src="https://github.com/marcoverpas/figures/blob/main/sankeys.png" width="1000">
 </figure>
 
 \:construction: Work in progress!
