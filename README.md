@@ -50,6 +50,8 @@ In this lecture, we will employ three main blocks. The SFC skeleton of the model
 
 This is one of the simplest SFC toy models, and we will use it as our benchmark. PC stands for “portfolio choice”, as households can hold their wealth in the form of cash and/or government bills. The key assumptions are as follows: the economy is closed; there are four agents or sectors (households, firms, government, and central bank); there are two financial assets (government bills and cash); firms do not invest in fixed capital or hold inventories; prices are fixed; all corporate income is distributed to households; and there are no banks, hence no deposits. A complete description of the model is provided [here](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc) (*tip:* I suggest opening the link in a new tab).
 
+### Model IO-PC
+
 [to be continued]
 
 \:construction: Work in progress!
@@ -77,7 +79,7 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 ## References
 
-- Carnevali, E., Deleidi, M., Pariboni, R., & Veronese Passarella, M. (2019). **SFC dynamic models: features, limitations and developments**. In: P. Arestis and M. Sawyer (eds.), \textit{Frontiers of Heterodox Economics, Series: International Papers in Political Economy}, Basingstoke \& New York: Palgrave Macmillan, pp. 223-276.
+- Carnevali, E., Deleidi, M., Pariboni, R., & Veronese Passarella, M. (2019). [**SFC dynamic models: features, limitations and developments**](https://link.springer.com/book/10.1007/978-3-030-23929-9). In: P. Arestis and M. Sawyer (eds.), \textit{Frontiers of Heterodox Economics, Series: International Papers in Political Economy}, Basingstoke \& New York: Palgrave Macmillan, pp. 223-276.
 
 1. Dafermos, Y., Nikolaidi, M., & Galanis, G. (2017). [**A stock-flow-fund ecological macroeconomic model**](https://www.sciencedirect.com/science/article/pii/S0921800916301343), Ecological Economics, 131(1): 191-207.
 
@@ -85,11 +87,11 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 - Godley, W., & Lavoie, M. (2007). [**Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth**](https://link.springer.com/book/10.1007/978-1-137-08599-3). Palgrave Macmillan. Chapters 1-4.
 
-- Miller, R. E., & Blair, P. D. (2009). **Input-Output Analysis: Foundations and Extensions**. Cambridge University Press, 2nd edition. Chapters 1-2.
+- Miller, R. E., & Blair, P. D. (2009). [**Input-Output Analysis: Foundations and Extensions**](https://www.cambridge.org/core/books/inputoutput-analysis/69827DA658E766CD1E17B1A47BA2B9C3). Cambridge University Press, 2nd edition. Chapters 1-2.
 
 - Thomsen, S. F., Raza, H., & Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, Vol. 238, 108741. 
 
-- Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). **The State of Applied Environmental Macroeconomics**. *Revue de l'OFCE*, 157(3): 133-149.  
+- Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157(3): 133-149.  
 
 - Veronese Passarella, M. (2024). **Notes for the 17th EAEPE Summer School**. [GitHub Repository](https://github.com/marcoverpas/EAEPE_summer_school_2024).
 
