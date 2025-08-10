@@ -123,13 +123,13 @@ where $\pi$ is the rate of growth of the consumer price index (inflation rate), 
 
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
-Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. The main code for developing Model IO-PC and conducting experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
+Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
+
+<!-- The main code for developing Model 3IO-PC and conducting experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R). -->
 
 <!-- Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of the main macro variables towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy. -->
 
 <!-- The input-output matrix of Model IO-PC is shown in **Table 3**. -->
-
-
 
 [to be continued]
 
