@@ -40,9 +40,15 @@ For many environmental applications, *combining IO and SFC approaches* can offer
 
 ## Assembling Blocks: From Model PC to Model ECO-3IO-PC
 
-Arguably, when constructing a formal model, best practice is to tailor its features to the historically and geographically specific institutional characteristics of the region or country under consideration. However, building a model from scratch can be both time-consuming and technically demanding. This may discourage students and early-career researchers from engaging with formal modelling, particularly when the framework departs from standard neoclassical principles. Moreover, excessive model complexity can hinder the dissemination of results and impede constructive dialogue with policymakers.
+Arguably, when constructing a formal model, best practice is to tailor its features to the historically and geographically specific institutional characteristics of the region or country under consideration. However, building a model from scratch can be both time-consuming and technically demanding. This may discourage students and early-career researchers from engaging with formal modelling, particularly when the framework departs from familiar neoclassical principles. Moreover, excessive model complexity can hinder the dissemination of results and impede constructive dialogue with policymakers.
 
-To address these challenges, an effective strategy is to develop the model by assembling pre-existing blocks... [to be continued]
+To address these challenges, an effective strategy is to develop the model by assembling pre-existing blocks drawn from the literature. This approach enables the creation of a *toy model* suitable for preliminary comparative-dynamics exercises, which can subsequently be adapted to reflect the institutional specificities of the country or area under consideration. 
+
+In this lecture, we will use three main blocks. The SFC skeleton of the model will be taken from one of the simplest SFC models, the so-called *Model PC* (see Godley and Lavoie, 2007, chapter 4). The interdependencies across industries will be modelled based on standard IO literature (Miller and Blair, 2009, chapters 1 and 2). Lastly, the ecological block will be borrowed from the works of Dafermos, Nikolaidi, and Galanis (2016, 2018).
+
+
+
+[to be continued]
 
 \:construction: Work in progress!
 
@@ -71,15 +77,17 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 - Carnevali, E., Deleidi, M., Pariboni, R., & Veronese Passarella, M. (2019). **SFC dynamic models: features, limitations and developments**. In: P. Arestis and M. Sawyer (eds.), \textit{Frontiers of Heterodox Economics, Series: International Papers in Political Economy}, Basingstoke \& New York: Palgrave Macmillan, pp. 223-276.
 
+1. Dafermos, Y., Nikolaidi, M., & Galanis, G. (2017). [**A stock-flow-fund ecological macroeconomic model**](https://www.sciencedirect.com/science/article/pii/S0921800916301343), Ecological Economics, 131(1): 191-207.
+
 - Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., & Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
 
-- Godley, W., & Lavoie, M. (2007). **Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth**. Palgrave Macmillan. Chapters 1-4.
+- Godley, W., & Lavoie, M. (2007). [**Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth**](https://link.springer.com/book/10.1007/978-1-137-08599-3). Palgrave Macmillan. Chapters 1-4.
 
 - Miller, R. E., & Blair, P. D. (2009). **Input-Output Analysis: Foundations and Extensions**. Cambridge University Press, 2nd edition. Chapters 1-2.
 
 - Thomsen, S. F., Raza, H., & Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, Vol. 238, 108741. 
 
-- Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). **The State of Applied Environmental Macroeconomics**. *Revue de l'OFCE*, 157 (3): 133-149.  
+- Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). **The State of Applied Environmental Macroeconomics**. *Revue de l'OFCE*, 157(3): 133-149.  
 
 - Veronese Passarella, M. (2024). **Notes for the 17th EAEPE Summer School**. [GitHub Repository](https://github.com/marcoverpas/EAEPE_summer_school_2024).
 
