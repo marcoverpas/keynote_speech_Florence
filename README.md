@@ -15,6 +15,11 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [2 - Assembling Blocks: From Model PC to Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#2---assembling-blocks-from-model-pc-to-model-eco-3io-pc)
 
+- [2.1 - Model PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#21---model-pc)
+
+- [2.2 - Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#22---model-eco-3io-pc)
+
+
 ---
 
 ## Abstract
