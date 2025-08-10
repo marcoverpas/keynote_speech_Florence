@@ -147,6 +147,13 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 \:construction: Work in progress!
 
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/sankeys.png" width="500">
+</figure>
+
+\:construction: Work in progress!
+
 ---
 
 ## Playing with the Model
