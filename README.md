@@ -34,7 +34,7 @@ Two alternative frameworks offer a way forward: [demand-driven input-output](htt
 
 - *SFC models* are a class of system dynamics tools developed mainly by post-Keynesian economists-integrate flows and stocks across the economy and the environment in a fully consistent manner (Carnevali et al. 2019). They have become increasingly popular in ecological macroeconomics thanks to their flexibility: SFC models can simulate dynamic transitions, test policy scenarios, and explore feedback effects between the economy and the ecosystem. Their limitation is that they typically operate at a high level of aggregation, overlooking inter-industry detail.
 
-For many environmental applications, *combining IO and SFC approaches* can offer the best of both worlds: sectoral granularity from IO, dynamic and financial coherence from SFC. This hybrid perspective enables researchers to explore environmental transitions in a way that is both empirically grounded and dynamically rich (Fevereiro et al. 2025; Thomsen et al. 2025).
+For many environmental applications, *combining IO and SFC approaches* can offer the best of both worlds: industrial granularity from IO, dynamic and financial coherence from SFC. This hybrid perspective enables researchers to explore environmental transitions in a way that is both empirically grounded and dynamically rich (Fevereiro et al. 2025; Thomsen et al. 2025).
 
 ---
 
