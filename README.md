@@ -21,11 +21,11 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [2.3 - Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#23---model-eco-3io-pc)
 
-- [3 - Playing with the Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#3---playing-with-the-model)
+- [3 - Playing with the Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#3-playing-with-the-model)
 
-- [4 - A More Advanced Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#4---a-more-advanced-model)
+- [4 - A More Advanced Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#4-a-more-advanced-model)
 
-- [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#---references)
+- [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#-references)
 
 ---
 
