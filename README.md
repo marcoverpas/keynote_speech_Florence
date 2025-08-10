@@ -13,7 +13,7 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [1.2 - Alternative Modelling Approaches](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#12---alternative-modelling-approaches)
 
-- [2 - 2 - Assembling Blocks: From Model PC to Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#2---assembling-blocks-from-model-pc-to-model-eco-3io-pc)
+- [2 - Assembling Blocks: From Model PC to Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#2---assembling-blocks-from-model-pc-to-model-eco-3io-pc)
 
 ---
 
