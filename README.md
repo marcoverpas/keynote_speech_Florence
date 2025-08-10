@@ -1,3 +1,8 @@
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/cover.png" width="800">
+</figure>
+
 # Modelling the Green Transition Through a Simple IO-SFC Model
 
 ---
