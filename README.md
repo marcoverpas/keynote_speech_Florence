@@ -44,9 +44,7 @@ Arguably, when constructing a formal model, best practice is to tailor its featu
 
 To address these challenges, an effective strategy is to develop the model by assembling pre-existing blocks drawn from the literature. This approach enables the creation of a *toy model* suitable for preliminary comparative-dynamics exercises, which can subsequently be adapted to reflect the institutional specificities of the country or area under consideration. 
 
-In this lecture, we will use three main blocks. The SFC skeleton of the model will be taken from one of the simplest SFC models, the so-called *Model PC* (see Godley and Lavoie, 2007, chapter 4). The interdependencies across industries will be modelled based on standard IO literature (Miller and Blair, 2009, chapters 1 and 2). Lastly, the ecological block will be borrowed from the works of Dafermos, Nikolaidi, and Galanis (2016, 2018).
-
-
+In this lecture, we will employ three main blocks. The SFC skeleton of the model will be drawn from one of the simplest SFC frameworks, the so-called *Model PC* (see Godley and Lavoie, 2007, ch. 4). The interdependencies across industries will be modelled following the standard IO literature (Miller and Blair, 2009, chs 1-2). Finally, the ecological block will be adapted from Dafermos, Nikolaidi, and Galanis (2016).
 
 [to be continued]
 
