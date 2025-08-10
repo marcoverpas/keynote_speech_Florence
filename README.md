@@ -143,16 +143,18 @@ Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) re
 src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" width="500">
 </figure>
 
-### Model ECO-3IO-PC
-
-\:construction: Work in progress!
-
 <figure>
 <img
 src="https://github.com/marcoverpas/figures/blob/main/sankeys.png" width="1000">
 </figure>
 
 \:construction: Work in progress!
+
+
+### Model ECO-3IO-PC
+
+\:construction: Work in progress!
+
 
 ---
 
