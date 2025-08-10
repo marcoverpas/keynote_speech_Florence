@@ -21,15 +21,15 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 ---
 
-## Introduction
+## 1 - Introduction
 
-### Standard Modelling Approaches
+### 1.1 - Standard Modelling Approaches
 
 Since the mid-1990s, [dynamic stochastic general equilibrium](https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium) (DSGE) models have dominated macroeconomics. Yet, these models are rarely applied to environmental issues ([Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). This is unsurprising: their small size and simplified “harmonic oscillator” dynamics make them ill-suited for analysing climate change, biodiversity loss, rebound effects, lock-in effects, commons management, or circular economy policies. [Standard neoclassical growth](https://en.wikipedia.org/wiki/Solow%E2%80%93Swan_model) (NG) models fare no better, as environmental variables typically have no impact on the structural drivers of growth ([Rivera et al. 2018](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
 To address environmental questions, mainstream economists often rely on two additional model classes: [integrated assessment models](https://en.wikipedia.org/wiki/Integrated_assessment_modelling) (IAMs) and [computable general equilibrium](https://en.wikipedia.org/wiki/Computable_general_equilibrium) (CGE) models. IAMs explicitly link the economy to the biosphere and atmosphere, combining social, economic, and environmental modules to assess mitigation scenarios or estimate the social cost of carbon. However, many IAMs - especially cost-benefit variants - inherit the same controversial assumptions as DSGE and NG models: a unique, stable, socially optimal equilibrium, and a hyper-rational representative agent optimising intertemporal utility under constraints. CGE models, by contrast, are large-scale and grounded in input-output and national accounts data, making them rich in sectoral detail. Yet their behavioural equations are rooted in neoclassical equilibrium theory, and they typically compare only pre- and post-shock states without modelling the transition in between.
 
-### Alternative Modelling Approaches
+### 1.2 - Alternative Modelling Approaches
 
 Two alternative frameworks offer a way forward: [demand-driven input-output](https://en.wikipedia.org/wiki/Input%E2%80%93output_model) (IO) models and [stock-flow consistent](https://en.wikipedia.org/wiki/Stock-flow_consistent_model) (SFC) macroeconomic models.
 
@@ -41,7 +41,7 @@ For many environmental applications, *combining IO and SFC approaches* can offer
 
 ---
 
-## Assembling Blocks: From Model PC to Model ECO-3IO-PC
+## 2 - Assembling Blocks: From Model PC to Model ECO-3IO-PC
 
 Arguably, when constructing a formal model, best practice is to tailor its features to the historically and geographically specific institutional characteristics of the region or country under consideration. However, building a model from scratch can be both time-consuming and technically demanding. This may discourage students and early-career researchers from engaging with formal modelling, particularly when the framework departs from familiar neoclassical principles. Moreover, excessive model complexity can hinder the dissemination of results and impede constructive dialogue with policymakers.
 
@@ -49,15 +49,15 @@ To address these challenges, an effective strategy is to develop the model by as
 
 In this lecture, we will employ three main blocks. The SFC skeleton of the model will be drawn from one of the simplest SFC frameworks, the so-called *Model PC* (see [Godley and Lavoie, 2007, ch. 4](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). The interdependencies across industries will be modelled following the standard IO literature ([Miller and Blair, 2009, chs 1-2](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). Finally, the ecological block will be adapted from [Dafermos, Nikolaidi, and Galanis (2016)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references).
 
-### Model PC
+### 2.1 - Model PC
 
 This is one of the simplest SFC toy models, and we will use it as our benchmark. PC stands for “portfolio choice”, as households can hold their wealth in the form of cash and/or government bills. The key assumptions are as follows: the economy is closed; there are four agents or sectors (households, firms, government, and central bank); there are two financial assets (government bills and cash); firms do not invest in fixed capital or hold inventories; prices are fixed; all corporate income is distributed to households; and there are no banks, hence no deposits. A complete description of the model is provided [here](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc) (*tip:* I suggest opening the link in a new tab). 
 
-### Model 3IO-PC
+### 2.2 - Model 3IO-PC
 
 There are currently only a few prototype input-output SFC models, despite recent progress (e.g. Thomsen et al. 2025). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy ([Hardt and O’Neill, 2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
-*Model 3IO-PC* is an input-output extension of Model PC, where *3IO* stands for "three-industry input-output structure".
+*Model 3IO-PC* is an input-output extension of *Model PC*, where *3IO* stands for "three-industry input-output structure".
 
 In comparison to Model PC, additional assumptions include:
 
@@ -73,7 +73,7 @@ In comparison to Model PC, additional assumptions include:
 
 1. The composition of both consumption and government spending is exogenously defined
 
-For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume. Under these assumptions, a few additional equations are required to transform Model PC (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into Model 3IO-PC.
+For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume. Under these assumptions, a few additional equations are required to transform *Model PC* (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into *Model 3IO-PC*.
 
 Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
 
@@ -151,14 +151,14 @@ src="https://github.com/marcoverpas/figures/blob/main/sankeys.png" width="1000">
 \:construction: Work in progress!
 
 
-### Model ECO-3IO-PC
+### 2.3 - Model ECO-3IO-PC
 
 \:construction: Work in progress!
 
 
 ---
 
-## Playing with the Model
+## 3. Playing with the Model
 
 One of the advantages of creating formal models using `R` is that they can be conveniently converted into online interactive models using the `Shiny` package. Click the link below (or the figure) to open the simulation laboratory for *Model ECO-3IO-PC*.
 
@@ -172,7 +172,7 @@ One of the advantages of creating formal models using `R` is that they can be co
 
 ---
 
-## A More Advanced Model
+## 4. A More Advanced Model
 
 \:construction: Work in progress!
 
