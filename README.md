@@ -151,7 +151,7 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 ## Playing with the Model
 
-\:construction: Work in progress!
+One of the advantages of creating formal models using R is that they can be conveniently converted into online interactive models. Click the link below to open the simulation laboratory for Model ECO-3IO-PC.
 
 [![Open Shiny App](https://img.shields.io/badge/Launch-Shiny_App-blue?style=for-the-badge&logo=r)](https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/)
 
