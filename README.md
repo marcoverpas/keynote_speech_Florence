@@ -50,7 +50,84 @@ In this lecture, we will employ three main blocks. The SFC skeleton of the model
 
 This is one of the simplest SFC toy models, and we will use it as our benchmark. PC stands for “portfolio choice”, as households can hold their wealth in the form of cash and/or government bills. The key assumptions are as follows: the economy is closed; there are four agents or sectors (households, firms, government, and central bank); there are two financial assets (government bills and cash); firms do not invest in fixed capital or hold inventories; prices are fixed; all corporate income is distributed to households; and there are no banks, hence no deposits. A complete description of the model is provided [here](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc) (*tip:* I suggest opening the link in a new tab).
 
-### Model IO-PC
+### Model 3IO-PC
+
+There are currently only a few prototype input-output SFC models, despite recent progress (e.g. Thomsen et al. 2025). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy (Hardt and O’Neill, 2017; Fevereiro et al. 2025).
+
+Model 3IO-PC is an input-output extension of Model PC, where **3IO** stands for "three-industry input-output structure".
+
+In comparison to Model PC, additional assumptions include:
+
+1. Three industries are considered: agriculture, manufacturing, services
+
+1. Circulating capital is used
+
+1. Technical coefficients are fixed
+
+1. Each industry uses only one technique to produce one product
+
+1. Prices are determined by reproduction conditions
+
+1. The composition of both consumption and government spending is exogenously defined
+
+For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume. Under these assumptions, a few additional equations are required to transform Model PC into Model 3IO-PC.
+
+Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
+
+Column vector defining *composition of real consumption* (behavioural):
+
+$$**\text{B}_c** = **\bar{\text{B}}_c** \quad \text{(13)} $$  
+
+where $\mathrm{B_c} = [ B_{c1} \text{ }  B_{c2} ]$ and $B_{c1} + B_{c2} = 1$.
+
+Column vector defining *composition of real government expenditure* (behavioural):
+
+$$**\text{B}_g** = **\bar{\text{B}}_g** \quad \text{(14)} $$  
+
+where $\mathrm{B_g} = [ B_{g1} \text{ } B_{g2} ]$ and $B_{g1} + B_{g2} = 1$.
+
+Column vector of *final demands in real terms* (identity):
+
+$$**\text{d}** = **\text{B}_c** \cdot c + **\text{B}_g** \cdot g \quad \text{(15)} $$  
+
+Column vector of *real gross outputs* (identity):
+
+$$**\text{x}** = **\text{A}** \cdot **\text{x}** + **\text{d}**, ~ with: **\text{A}**= \left(\begin{array}{cc} a_{11} & a_{12} \\
+                                                                        a_{21} & a_{22}
+                                                                        \end{array}\right) \quad \text{(16)} $$  
+
+Modified equation for *national income* (identity):
+
+$$Y = **\text{p}^T** \cdot **\text{d}** \quad \text{(1.A)} $$
+
+Column vector of *unit prices of reproduction* (behavioural):
+
+$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}**^T \cdot **\text{A}** ) \cdot (1 + \mu) \quad \text{(17)} $$
+
+where $w$ is the (uniform) wage rate, $\mathrm{pr}$ is the vector of labour productivities, and $\mu$ is the (uniform) profit rate.
+
+*Average consumer price* (identity):
+
+$$p_c = **\text{p}^T** \cdot **\text{B}_c** \quad \text{(18)} $$  
+
+*Average price for the government* (identity):
+
+$$p_g = **\text{p}^T** \cdot **\text{B}_g** \quad \text{(19)} $$  
+
+*Real consumption function* (behavioural):
+$$c = \alpha_1 \cdot \left( \frac{YD}{p_c} - \pi \cdot \frac{V_{-1}}{p_c} \right) + \alpha_2 \cdot \frac{V_{-1}}{p_{c}} \quad \text{(5.A)} $$
+
+where $\pi$ is the rate of growth of the consumer price index (inflation rate), as consumers are assumed not to suffer from monetary illusion.
+
+Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
+
+Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. The main code for developing Model IO-PC and conducting experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
+
+Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of the main macro variables towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy.
+
+The input-output matrix of Model IO-PC is shown in **Table 3**.
+
+
 
 [to be continued]
 
@@ -81,15 +158,17 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 - Carnevali, E., Deleidi, M., Pariboni, R., & Veronese Passarella, M. (2019). [**SFC dynamic models: features, limitations and developments**](https://link.springer.com/book/10.1007/978-3-030-23929-9). In: P. Arestis and M. Sawyer (eds.), \textit{Frontiers of Heterodox Economics, Series: International Papers in Political Economy}, Basingstoke \& New York: Palgrave Macmillan, pp. 223-276.
 
-1. Dafermos, Y., Nikolaidi, M., & Galanis, G. (2017). [**A stock-flow-fund ecological macroeconomic model**](https://www.sciencedirect.com/science/article/pii/S0921800916301343), Ecological Economics, 131(1): 191-207.
+1. Dafermos, Y., Nikolaidi, M., & Galanis, G. (2017). [**A stock-flow-fund ecological macroeconomic model**](https://www.sciencedirect.com/science/article/pii/S0921800916301343). Ecological Economics, 131: 191-207.
 
 - Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., & Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
 
 - Godley, W., & Lavoie, M. (2007). [**Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth**](https://link.springer.com/book/10.1007/978-1-137-08599-3). Palgrave Macmillan. Chapters 1-4.
 
+- Hardt, L., & O'Neill, D. W. (2017). [**Ecological Macroeconomic Models: Assessing Current Developments**](https://doi.org/10.1016/j.ecolecon.2016.12.027). Ecological Economics, 134: 198-211.
+
 - Miller, R. E., & Blair, P. D. (2009). [**Input-Output Analysis: Foundations and Extensions**](https://www.cambridge.org/core/books/inputoutput-analysis/69827DA658E766CD1E17B1A47BA2B9C3). Cambridge University Press, 2nd edition. Chapters 1-2.
 
-- Thomsen, S. F., Raza, H., & Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, Vol. 238, 108741. 
+- Thomsen, S. F., Raza, H., & Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, 238, 108741. 
 
 - Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157(3): 133-149.  
 
