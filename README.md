@@ -93,7 +93,7 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 - Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157(3): 133-149.  
 
-- Veronese Passarella, M. (2024). **Notes for the 17th EAEPE Summer School**. [GitHub Repository](https://github.com/marcoverpas/EAEPE_summer_school_2024).
+- Veronese Passarella, M. (2024). [**Notes for the 17th EAEPE Summer School**](https://github.com/marcoverpas/EAEPE_summer_school_2024). GitHub Repository.
 
-- Veronese Passarella, M. (2025). **Issues in Monetary Policies and Monetary Circuits**. [GitHub Repository](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025), Sections B1–B5.
+- Veronese Passarella, M. (2025). [**Issues in Monetary Policies and Monetary Circuits**](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025). GitHub Repository, Sections B1–B5.
 
