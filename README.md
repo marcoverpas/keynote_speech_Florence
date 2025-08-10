@@ -70,7 +70,7 @@ In comparison to Model PC, additional assumptions include:
 
 1. The composition of both consumption and government spending is exogenously defined
 
-For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume. Under these assumptions, a few additional equations are required to transform Model PC (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc) into Model 3IO-PC.
+For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume. Under these assumptions, a few additional equations are required to transform Model PC (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into Model 3IO-PC.
 
 Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
 
@@ -78,13 +78,13 @@ Column vector defining *composition of real consumption* (behavioural):
 
 $$**\text{B}_c** = **\bar{\text{B}}_c** \quad \text{(13)} $$  
 
-where $\mathrm{B_c} = [ B_{c1} \text{ }  B_{c2} ]$ and $B_{c1} + B_{c2} = 1$.
+where $\mathrm{B_c} = [ B_{c1} \text{ } B_{c2} \text{ } B_{c3}]$ and $B_{c1} + B_{c2} + B_{c3} = 1$.
 
 Column vector defining *composition of real government expenditure* (behavioural):
 
 $$**\text{B}_g** = **\bar{\text{B}}_g** \quad \text{(14)} $$  
 
-where $\mathrm{B_g} = [ B_{g1} \text{ } B_{g2} ]$ and $B_{g1} + B_{g2} = 1$.
+where $\mathrm{B_g} = [ B_{g1} \text{ } B_{g2} \text{ } B_{g3}]$ and $B_{g1} + B_{g2} + B_{g3} = 1$.
 
 Column vector of *final demands in real terms* (identity):
 
@@ -92,8 +92,9 @@ $$**\text{d}** = **\text{B}_c** \cdot c + **\text{B}_g** \cdot g \quad \text{(15
 
 Column vector of *real gross outputs* (identity):
 
-$$**\text{x}** = **\text{A}** \cdot **\text{x}** + **\text{d}**, ~ with: **\text{A}**= \left(\begin{array}{cc} a_{11} & a_{12} \\
-                                                                        a_{21} & a_{22}
+$$**\text{x}** = **\text{A}** \cdot **\text{x}** + **\text{d}**, ~ with: **\text{A}**= \left(\begin{array}{ccc} a_{11} & a_{12} & a_{13} \\
+                                                                        a_{21} & a_{22} & a_{23} \\
+                                                                        a_{31} & a_{32} & a_{33}
                                                                         \end{array}\right) \quad \text{(16)} $$  
 
 Modified equation for *national income* (identity):
@@ -123,9 +124,9 @@ Note: the superscript $T$ stands for the transpose of the matrix, turning a colu
 
 Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of Model PC, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. The main code for developing Model IO-PC and conducting experiments can be found [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_io_model.R).
 
-Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of the main macro variables towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy.
+<!-- Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of the main macro variables towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy. -->
 
-The input-output matrix of Model IO-PC is shown in **Table 3**.
+<!-- The input-output matrix of Model IO-PC is shown in **Table 3**. -->
 
 
 
