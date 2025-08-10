@@ -25,7 +25,7 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [4 - A More Advanced Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#4-a-more-advanced-model)
 
-- [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#-references)
+- [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#references)
 
 ---
 
