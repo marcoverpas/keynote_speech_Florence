@@ -17,7 +17,9 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [2.1 - Model PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#21---model-pc)
 
-- [2.2 - Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#22---model-3io-pc)
+- [2.2 - Model 3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#22---model-3io-pc)
+
+- [2.3 - Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#23---model-eco-3io-pc)
 
 
 ---
