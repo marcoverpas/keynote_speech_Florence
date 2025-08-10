@@ -48,7 +48,7 @@ In this lecture, we will employ three main blocks. The SFC skeleton of the model
 
 ### Model PC
 
-This is one of the simplest SFC toy models, and we will use it as our benchmark. PC stands for “portfolio choice”, as households can hold their wealth in the form of cash and/or government bills. The key assumptions are as follows: the economy is closed; there are four agents or sectors (households, firms, government, and central bank); there are two financial assets (government bills and cash); firms do not invest in fixed capital or hold inventories; prices are fixed; all corporate income is distributed to households; and there are no banks, hence no deposits. A complete description of the model is provided [here] ([https://github.com/marcove](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc) (*tip:* I suggest opening the link in a new tab). 
+This is one of the simplest SFC toy models, and we will use it as our benchmark. PC stands for “portfolio choice”, as households can hold their wealth in the form of cash and/or government bills. The key assumptions are as follows: the economy is closed; there are four agents or sectors (households, firms, government, and central bank); there are two financial assets (government bills and cash); firms do not invest in fixed capital or hold inventories; prices are fixed; all corporate income is distributed to households; and there are no banks, hence no deposits. A complete description of the model is provided [here](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc) (*tip:* I suggest opening the link in a new tab). 
 
 ### Model 3IO-PC
 
