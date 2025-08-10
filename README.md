@@ -5,7 +5,13 @@ src="https://github.com/marcoverpas/figures/blob/main/cover.png" width="1000">
 
 ## Overview
 
-This repository accompanies the keynote speech delivered at the [Summer School on *Multiscale Modeling and Ecological Macroeconomics*](https://www.must4water.unifi.it/p40.html) (8-10 September 2025, University of Florence, Italy). It presents a prototype hybrid model that integrates [Input-Output (IO) analysis](https://en.wikipedia.org/wiki/Input%E2%80%93output_model) with [Stock-Flow Consistent (SFC) modelling](https://en.wikipedia.org/wiki/Stock-flow_consistent_model) to assess ecological transition strategies in a macroeconomic framework.
+This repository accompanies the keynote speech delivered at the [Summer School on *Multiscale Modeling and Ecological Macroeconomics*](https://www.must4water.unifi.it/p40.html) (8-10 September 2025, University of Florence, Italy). It presents a prototype hybrid model that integrates [Input-Output (IO) analysis](https://en.wikipedia.org/wiki/Input%E2%80%93output_model) with [Stock-Flow Consistent (SFC) modelling](https://en.wikipedia.org/wiki/Stock-flow_consistent_model) to assess ecological transition strategies in a macroeconomic framework. The material is organised as follows:
+
+- [1 - Introduction](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#1---introduction)
+
+- [1.1 - Standard Modelling Approaches](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#11---standard-modelling-approaches)
+
+- ...
 
 ---
 
