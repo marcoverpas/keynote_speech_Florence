@@ -57,7 +57,7 @@ This is one of the simplest SFC toy models, and we will use it as our benchmark.
 
 There are currently only a few prototype input-output SFC models, despite recent progress (e.g. Thomsen et al. 2025). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy ([Hardt and O’Neill, 2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
-Model 3IO-PC is an input-output extension of Model PC, where **3IO** stands for "three-industry input-output structure".
+*Model 3IO-PC* is an input-output extension of Model PC, where *3IO* stands for "three-industry input-output structure".
 
 In comparison to Model PC, additional assumptions include:
 
@@ -151,7 +151,7 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 ## Playing with the Model
 
-One of the advantages of creating formal models using `R` is that they can be conveniently converted into online interactive models. Click the link below to open the simulation laboratory for Model ECO-3IO-PC.
+One of the advantages of creating formal models using `R` is that they can be conveniently converted into online interactive models. Click the link below (or the figure) to open the simulation laboratory for *Model ECO-3IO-PC*.
 
 [![Open Shiny App](https://img.shields.io/badge/Launch-Shiny_App-blue?style=for-the-badge&logo=r)](https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/)
 
