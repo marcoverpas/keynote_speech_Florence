@@ -177,7 +177,7 @@ src="https://github.com/marcoverpas/figures/blob/main/sankeys.png" width="1000">
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/sankey_mat_en.png" width="1000">
+src="https://github.com/marcoverpas/figures/blob/main/sankey_mat_en.png" width="800">
 </figure>
 
 ---
@@ -190,7 +190,7 @@ One of the advantages of creating formal models using `R` is that they can be co
 
 <figure>
 <a href="https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/" target="_blank">
-<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory.png" width="800">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory.png" width="1000">
 </a>
 </figure>
 
