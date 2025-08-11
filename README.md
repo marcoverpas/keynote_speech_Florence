@@ -196,6 +196,11 @@ One of the advantages of creating formal models using `R` is that they can be co
 
 \:construction: Work in progress!
 
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/Network_3.png" width="500">
+</figure>
+
 ---
 
 ## References
