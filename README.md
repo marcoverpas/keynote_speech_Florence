@@ -190,7 +190,7 @@ One of the advantages of creating formal models using `R` is that they can be co
 
 <figure>
 <a href="https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/" target="_blank">
-<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory.png" width="1000">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory.png" width="800">
 </a>
 </figure>
 
