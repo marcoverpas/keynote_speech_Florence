@@ -446,7 +446,7 @@ src="https://github.com/marcoverpas/figures/blob/main/Network_3.png" width="500"
 
 - Dafermos, Y., Nikolaidi, M., and Galanis, G. (2017). [**Climate Change, Financial Stability and Monetary Policy**](https://doi.org/10.1016/j.ecolecon.2018.05.011). *Ecological Economics*, 152: 219-234.
 
-- Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., & Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
+- Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., and Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
 
 - Georgescu-Roegen, N. (1971). [**The Entropy Law and the Economic Process**](http://dx.doi.org/10.4159/harvard.9780674281653). Harvard University Press.
 
