@@ -93,7 +93,44 @@ In comparison to Model PC, additional assumptions include:
 
 1. The composition of both consumption and government spending is exogenously defined
 
-For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume. Under these assumptions, a few additional equations are required to transform *Model PC* (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into *Model 3IO-PC*.
+The macro-accounting structure of *Model 3IO-PC* is identical to that of Model PC and is therefore relatively simple. Its key identities are derived from the balance-sheet matrix and the transaction-flow matrix. 
+
+#### Table 1. Balance sheet matrix  
+
+
+|              | Households  | Firms      |Central bank |Government | Row. tot |
+|:------------:|:------:     |:------:    |:------:     |:------:   |:---:     |
+|              |             |            |             |           |          |
+|Cash (money)  |$$H_h$$      |            |$$-H_s$$     |           |   0      |
+|Bills         |$$B_h$$      |            |$$B_{cb}$$   |$$-B_s$$   |   0      |
+|Wealth        |$$-V_h$$     |            |             |$$V_g$$    |   0      |
+|              |             |            |             |           |          |
+|Column tot.   |   0         |0           |0            |0          |   0      |
+
+#### Table 2. Transactions-flow matrix  
+
+|                       |Households           |Firms             |Central bank             |Government           | Row. tot |
+|:----------------------|:---------------:    |:----------------:|:--------------:         |:--------------:     |:-------: |
+|                       |                     |                  |                         |                     |          |
+|Consumption            |$$p_c \cdot -c_d$$   |$$p_c \cdot C_s$$ |                         |                     |   0      |
+|Government expenditure |                     |$p_g \cdot $G$$   |                         |$$-p_g \cdot G$$     |   0      |
+|GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
+|Interest payments      |$$r \cdot B_{h,-1}$$ |                  |$$r \cdot B_{cb,-1}$$    |$$-r \cdot B_{s,-1}$$|   0      |
+|CB profit              |                     |                  |$$-r \cdot B_{cb,-1}$$   |$$r \cdot B_{cb,-1}$$|   0      |
+|Taxes                  |$$-T$$               |                  |                         |$$T$$                |   0      |
+|                       |                     |                  |                         |                     |          |
+|Change in cash         |$$-\Delta H_h$$      |                  |$$\Delta H_s$$           |                     |   0      |
+|Change in bills        |$$-\Delta B_h$$      |                  |$$-\Delta B_{cb}$$       |$$\Delta B_s$$       |   0      |
+|                       |                     |                  |                         |                     |          |
+|Column tot.            |0                    |0                 |0                        |0                    |   0      |
+
+*Note*: The code needed to generate **Table 1** and **Table 2** can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/3_BS_TFM_Tables.R).
+
+For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume:
+
+$$\alpha_{1} = \alpha_{10} - \alpha_{11} \cdot r_{-1} $  
+
+Under these assumptions, a few additional equations are required to transform *Model PC* (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into *Model 3IO-PC*.
 
 Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
 
