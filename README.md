@@ -179,10 +179,6 @@ where $\pi$ is the rate of growth of the consumer price index (inflation rate), 
 
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
-Furthermore, it is assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume:
-
-$$\alpha_{1} = \alpha_{10} - \alpha_{11} \cdot r_{-1} \quad \text{(12)} $$  
-
 Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of *Model PC*, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
 
 Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of consumption and disposable income towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy (**Figure 3** and **Figure 4**) and the way prices are set (**Figure 5** and **Figure 6**).
