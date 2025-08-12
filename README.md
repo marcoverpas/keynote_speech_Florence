@@ -161,13 +161,14 @@ The input-output matrix of Model IO-PC is shown in **Table 3**.
 
 #### Table 3. Simplified input-output matrix
 
-|                             | Industry 1 (demand)  | Industry 2 (demand)  |  Final demand   |             Output              |
-|:----------------------------|:--------------------:|:--------------------:|:---------------:|:-------------------------------:|
-|                             |                      |                      |                 |                                 |
-| **Inudstry 1 (production)** | \$p_1 x_1 a\_{11} \$ | \$p_1 x_2 a\_{12} \$ | $p_1 \cdot d_1$ |         $p_1 \cdot x_1$         |
-| **Industry 2 (production)** | \$p_2 a\_{21} x_1 \$ | \$p_2 a\_{22} x_2 \$ | $p_2 \cdot d_2$ |         $p_2 \cdot x_2$         |
-| **Value added**             |        $yn_1$        |        $yn_2$        |      $yn$       |                                 |
-| **Output**                  |   $p_1 \cdot x_1$    |   $p_2 \cdot x_2$    |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
+|                             | Industry 1 (demand)  | Industry 2 (demand)  | Industry 3 (demand)  |  Final demand   |             Output              |
+|:----------------------------|:--------------------:|:--------------------:|:--------------------:|:---------------:|:-------------------------------:|
+|                             |                      |                      |                      |                 |                                 |
+| **Inudstry 1 (production)** | \$p_1 x_1 a\_{11} \$ | \$p_1 x_2 a\_{12} \$ | \$p_1 x_2 a\_{12} \$ | $p_1 \cdot d_1$ |         $p_1 \cdot x_1$         |
+| **Industry 2 (production)** | \$p_2 a\_{21} x_1 \$ | \$p_2 a\_{22} x_2 \$ | \$p_2 a\_{22} x_2 \$ | $p_2 \cdot d_2$ |         $p_2 \cdot x_2$         |
+| **Industry 2 (production)** | \$p_2 a\_{31} x_1 \$ | \$p_3 a\_{32} x_3 \$ | \$p_3 a\_{32} x_3 \$ | $p_3 \cdot d_3$ |         $p_3 \cdot x_3$         |
+| **Value added**             |        $yn_1$        |        $yn_2$        |        $yn_3$        |      $yn$       |                                 |
+| **Output**                  |   $p_1 \cdot x_1$    |   $p_2 \cdot x_2$    |   $p_3 \cdot x_3$    |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
 
 *Note*: The code needed to generate **Table 3** can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/4_IO_Table.R).
 
