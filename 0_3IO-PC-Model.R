@@ -173,7 +173,7 @@ for (j in 1:nScenarios){
       # Real consumption function with no monetary illusion - eq. 5.A.1 
       cons[j,i] = alpha1[j,i]*((yd[j,i]/p_c[j,i])-infl[j,i]) + alpha2*v[j,i-1]/p_c[j,i]
       
-      # Endogenous propensity to consume out of income - eq. 20
+      # Endogenous propensity to consume out of income - eq. 12
       alpha1[j,i] = alpha10 - alpha11*r[j,i-1]   
       
       # Inflation tax for households - eq. 5.A.1
@@ -361,4 +361,5 @@ plot(period,p_c[2,48:tspan],type="l",lwd=2,col="brown",
      ylab = '£',xlab = '',ylim=range(3,4))
 lines(period,p_g[2,48:tspan],type="l",lwd=2,col="gold3",lty=1)
 legend("topright",c("Consumer","Government"),  bty = 'n', cex=1, lty=c(1,1), lwd=c(2,2), col = c("brown","gold3"), box.lty=0)
+
 
