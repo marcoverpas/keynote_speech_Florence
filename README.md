@@ -113,7 +113,7 @@ The macro-accounting structure of *Model 3IO-PC* is identical to that of Model P
 |:----------------------|:---------------:    |:----------------:|:--------------:         |:--------------:     |:-------: |
 |                       |                     |                  |                         |                     |          |
 |Consumption            |$$-p_c \cdot c_d$$   |$$p_c \cdot c_s$$ |                         |                     |   0      |
-|Government expenditure |                     |$$p_g \cdot $g$$  |                         |$$-p_g \cdot g$$     |   0      |
+|Government expenditure |                     |$$p_g \cdot g$$   |                         |$$-p_g \cdot g$$     |   0      |
 |GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
 |Interest payments      |$$r \cdot B_{h,-1}$$ |                  |$$r \cdot B_{cb,-1}$$    |$$-r \cdot B_{s,-1}$$|   0      |
 |CB profit              |                     |                  |$$-r \cdot B_{cb,-1}$$   |$$r \cdot B_{cb,-1}$$|   0      |
@@ -126,11 +126,7 @@ The macro-accounting structure of *Model 3IO-PC* is identical to that of Model P
 
 *Note*: The code needed to generate **Table 1** and **Table 2** can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/3_BS_TFM_Tables.R).
 
-For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume:
-
-$$\alpha_{1} = \alpha_{10} - \alpha_{11} \cdot r_{-1} $$  
-
-Under these assumptions, a few additional equations are required to transform *Model PC* (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into *Model 3IO-PC*.
+For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. Under these assumptions, a few additional equations are required to transform *Model PC* (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into *Model 3IO-PC*.
 
 Notice that scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
 
@@ -183,7 +179,11 @@ where $\pi$ is the rate of growth of the consumer price index (inflation rate), 
 
 Note: the superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
-Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of *Model PC*, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
+Furthermore, it is assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume:
+
+$$\alpha_{1} = \alpha_{10} - \alpha_{11} \cdot r_{-1} \quad \text{(20)} $$  
+
+Equations (`13`) to (`20`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of *Model PC*, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
 
 Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of consumption and disposable income towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy (**Figure 3** and **Figure 4**) and the way prices are set (**Figure 5** and **Figure 6**).
 
