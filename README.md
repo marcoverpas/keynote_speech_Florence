@@ -160,7 +160,7 @@ Using the hidden equation, **Figure 1** demonstrates that the model is watertigh
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/3io_pc_baseline.png" width="500">
+src="https://github.com/marcoverpas/figures/blob/main/3io_pc_baseline.png" width="1000">
 </figure>
 
 <figure>
