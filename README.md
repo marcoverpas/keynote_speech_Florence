@@ -408,7 +408,7 @@ Once again, the model is simulated over a 100-period time span. In addition to e
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/co_baseline.png" width="800">
+src="https://github.com/marcoverpas/figures/blob/main/eco_baseline.png" width="800">
 </figure>
 
 Note that the behaviour of the economy is qualitatively unchanged relative to *Model 3IO-PC*, except for the effect of rising temperature on consumption.
