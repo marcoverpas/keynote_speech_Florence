@@ -181,9 +181,9 @@ Note: the superscript $T$ stands for the transpose of the matrix, turning a colu
 
 Furthermore, it is assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume:
 
-$$\alpha_{1} = \alpha_{10} - \alpha_{11} \cdot r_{-1} \quad \text{(20)} $$  
+$$\alpha_{1} = \alpha_{10} - \alpha_{11} \cdot r_{-1} \quad \text{(12)} $$  
 
-Equations (`13`) to (`20`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of *Model PC*, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
+Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of *Model PC*, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
 
 Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of consumption and disposable income towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy (**Figure 3** and **Figure 4**) and the way prices are set (**Figure 5** and **Figure 6**).
 
@@ -228,9 +228,189 @@ src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" 
 
 Here, the size of each vertex is proportional to the corresponding industry's size. The related code can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/7_IO_Network.R).
 
-\:construction: Work in progress!
-
 ### 2.3 - Model ECO-3IO-PC
+
+Although the origins of ecological macroeconomics can be traced back to the inception of economics itself, early SFC models for economic research did not incorporate the ecosystem.
+
+This gap was bridged in the late 2010s (e.g., Dafermos, Nikolaidi, and Galanis, [2017](https://www.sciencedirect.com/science/article/pii/S0921800916301343), [2018](https://www.sciencedirect.com/science/article/pii/S0921800917315161); and [Jackson and Victor, 2015](https://www.sciencedirect.com/science/article/abs/pii/S0921800915003766)). The primary characteristic of ecological SFC models is their integration of monetary variables (following [Godley and Lavoie, 2007](https://link.springer.com/book/10.1007/978-1-137-08599-3)) with physical variables (in line with [Georgescu-Roegen, 1971](http://dx.doi.org/10.4159/harvard.9780674281653)) in a consistent manner. Several ECO-SFC models have been developed since then.
+
+Here we consider a simple extension of *Model 3IO-PC*, named *Model ECO-3IO-PC*, where **ECO** stands for "ecological". Additional assumptions are as follows:
+
+1. there are 2 types of reserves: matter and energy
+
+1. there are 2 types of energy: renewable and non-renewable
+
+1. Resources are converted into reserves at a certain rate
+
+1. Industrial CO<sub>2</sub> emissions are associated with the use of non-renewable energy
+
+1. Atmospheric temperature is a growing function of CO<sub>2</sub> emissions
+
+1. All goods can be durable or non-durable
+
+1. A share of durable goods (hence socio-economic stock) is discarded in every period
+
+1. Both waste and emissions are produced only by the firm sector
+
+Behavioural equations draw inspiration from the works of [Dafermos, Nikolaidi, and Galanis (2016, 2018)](https://define-model.org/). The main code of Model ECO-IO-PC is available [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/1_ECO-3IO-PC-Model.R). New variables and coefficients are defined between line 94 and line 133. The blocks providing the additional equations for the ecosystem are those included between line 251 and 334.
+
+Firstly, extractions of matter and waste are modelled.
+
+Production of *material goods*:
+
+$$ x_{mat} = **\text{m}_{mat}^T** \cdot **\text{x}** \quad \text{(20)} $$
+
+where $\text{m}_{mat}$ is the vector of material intensity coefficients by industry.
+
+*Extraction* of matter:
+
+$$mat = x_{mat} - rec \quad \text{(21)} $$
+
+*Recycled* matter:
+
+$$rec = \rho_{dis} \cdot dis \quad \text{(22)} $$
+
+where $\rho_{dis}$ is the recycling rate of discarded products.
+
+*Discarded* socioeconomic stock:  
+
+$$dis = **\text{m}_{mat}^T** \cdot (**\text{z}_{dc}** \odot **\text{dc}_{-1}**) \quad \text{(23)} $$
+
+where $\text{z}_{dc}$ is the vector defining the percentages of discarded socio-economic stock by industry.
+
+Stock of *durable goods*:
+
+$$ **\text{dc}** = **\text{dc}_{-1}** + **\text{B}_c** \cdot c - **\text{z}_{dc}** \cdot **\text{dc}_{-1}** \quad \text{(24)} $$
+
+*Socioeconomic stock*:
+
+$$k_h = k_{h,-1} + x_{mat} - dis \quad \text{(25)} $$
+
+*Waste*:
+
+$$wa = mat - (k_h - k_{h,-1}) \quad \text{(26)} $$
+
+Secondly, energy use and CO2 emissions are considered.
+
+*Total energy* required for production:
+
+$$en = **\text{e}_{en}^T** \cdot **\text{x}** \quad \text{(27)} $$
+
+where $\text{e}_{en}$ is the vector that defines the energy intensity coefficients by industry.
+
+*Renewable* energy at the end of the period:
+
+$$ren = **\text{e}_{en}^T** \cdot (**\text{a}_{en}** \odot **\text{x}** )    \quad \text{(28)}      $$
+
+where $\text{a}_{en}$ is the vector that defines the industry-specific shares of renewable energy to total energy.
+
+*Non-renewable* energy:
+
+$$nen = en - ren \quad \text{(29)} $$
+
+Annual flow of *CO2 emissions*:
+
+$$emis = \beta_{e} \cdot nen \quad \text{(30)} $$
+
+where $\beta_{e}$ is the CO2 intensity coefficient of non-renewable energy sources.
+
+*Cumulative* emissions:
+
+$$co2_{cum} = co2_{cum,-1} + emis \quad \text{(31)} $$
+
+Atmospheric *temperature*:
+
+$$temp = \frac{1}{1-fnc} \cdot tcre \cdot co2_{cum} \quad \text{(32)} $$
+
+where $fnc$ is the non-CO2 fraction of total anthropocentric forcing and $tcre$ is the transient climate response to cumulative carbon emissions.
+
+Thirdly, the dynamics of reserves is modelled.
+
+Stock of *matter reserves*:
+
+$$k_m = k_{m,-1} + conv_m - mat \quad \text{(33)} $$
+
+Matter resources *converted* to reserves:
+
+$$conv_m = \sigma_{m} \cdot res_m \quad \text{(34)} $$
+
+where $\sigma_{m}$ is the conversion rate of matter resources into reserves.
+
+Stock of *matter resources*:
+
+$$res_m = res_{m,-1} - conv_m \quad \text{(35)} $$
+
+*Carbon mass* of non-renewable energy:
+
+$$cen = \frac{emis}{car} \quad \text{(36)} $$
+
+where $car$ is the coefficient converting Gt of carbon into Gt of CO2.
+
+Mass of *oxygen*:
+
+$$o2 = emis - cen \quad \text{(37)} $$
+
+Stock of *energy reserves*:
+
+$$k_e = k_{e,-1} + conv_e - en \quad \text{(38)} $$
+
+Energy resources *converted* to reserves:
+
+$$conv_e = \sigma_e \cdot res_e \quad \text{(39)} $$
+
+where $\sigma_e$ is the conversion rate of energy resources into reserves.
+
+Stock of *energy resources*:
+
+$$res_e = res_{e,-1} - conv_e \quad \text{(40)} $$
+
+Lastly, feedback effects and damages can be introduced. Here the
+assumption is made that the propensity to consume out of income is
+(negatively) influenced by climate change.
+
+New *propensity to consume* out of income:
+
+$$\alpha_1 = \alpha_{10} - \alpha_{11} \cdot r_{-1} - \alpha_{12} \cdot \Delta temp \quad \text{(12.A)} $$
+
+where $\alpha_{12}$ is a positive coefficient.
+
+The related physical constraints (used to define ecosystem identities) are displayed by **Table 4** and **Table 5**, in which matter is expressed in $Gt$ and energy is expressed in $EJ$. 
+
+#### Table 4. Physical flow matrix
+
+|                               |*Matter*        |*Energy*        |
+|:------------------------------|:------------:  |:--------------:|
+|                               |                |                |
+|**INPUTS**                     |                |                |
+|Extracted matter               |$$mat$$         |                |
+|Recycled socio-economic stock  |$$rec$$         |                |
+|Renewable energy               |                |$$ren$$         |
+|Non-renewable energy           |$$cen$$         |$$nen$$         |
+|Oxygen                         |$$o2$$          |                |
+|                               |                |                |
+|**OUTPUTS**                    |                |                |
+|Industrial CO2 emissions       |$$-emis$$       |                |
+|Discarded socio-economic stock |$$-dis$$        |                |
+|Dissipated energy              |                |$$-nen$$        |
+|Change in socio-economic stock |$$-\Delta k_h $$|                |
+|                               |                |                |
+|**TOTAL**                      |0               |0               |
+
+
+#### Table 5. Physical stock-flow matrix
+
+|                                     |*Matter*     |*Energy*     |*CO2*            |*SES*       |
+|:------------------------------------|:----------: |:----------: |:----------:     |:----------:|
+|                                     |             |             |                 |            |
+|**INITIAL STOCK**                    |$$k_{m,-1}$$ |$$k_{e,-1}$$ |$$co2_{cum,-1}$$ |$$k_{h,-1}$$|
+|Resources converted into reserves    |$$conv_m$$   |$$conv_e$$   |                 |            |
+|CO2 emissions                        |             |             |$$emis $$        |            |
+|Production of material goods         |             |             |                 |$$x_{mat} $$|
+|Extraction of matter / use of energy |$$-mat$$     |$$-en $$     |                 |            |
+|Destruction of socio-economic stock  |             |             |                 |$$-dis$$    |
+|**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
+
+*Note*: The code needed to generate **Table 4** and **Table 5** can be accessed [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_eco_tables.R).
 
 \:construction: Work in progress!
 
