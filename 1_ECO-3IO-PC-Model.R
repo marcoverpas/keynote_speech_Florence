@@ -191,15 +191,15 @@ for (j in 1:nScenarios){
       
       # D) Price setting ####
       
-      # Set unit prices for each industry
+      # Set unit prices for each industry - eq. 17
       p[j,i,1] = (w/pr1) + (p[j,i,1]*A[1,1] + p[j,i,2]*A[2,1] + p[j,i,3]*A[3,1])*(1 + mu) 
       p[j,i,2] = (w/pr2) + (p[j,i,1]*A[1,2] + p[j,i,2]*A[2,2] + p[j,i,3]*A[3,2])*(1 + mu) 
       p[j,i,3] = (w/pr3) + (p[j,i,1]*A[1,3] + p[j,i,2]*A[2,3] + p[j,i,3]*A[3,3])*(1 + mu) 
       
-      # Average price for the consumers - eq. 17
+      # Average price for the consumers - eq. 18
       p_c[j,i] = t(p[j,i,]) %*% beta_c[j,i,]
       
-      # Average price for the government - eq. 18
+      # Average price for the government - eq. 19
       p_g[j,i] = t(p[j,i,]) %*% beta_g[j,i,]
       
       
@@ -330,7 +330,7 @@ for (j in 1:nScenarios){
       
       # CLIMATE RELATED IMPACTS ####
       
-      #Endogenous propensity to consume out of income
+      #Endogenous propensity to consume out of income - eq. 20.A
       alpha1[j,i] = alpha10 - alpha11*r[j,i-1] - alpha12[j,i] * (temp[j,i] - temp[j,i-1])   
       
     }
@@ -464,3 +464,4 @@ plot(temp[1,2:tspan],type="l",
      main="Figure 10. Atmospheric temperature",
 
      ylab = 'C',xlab = '',cex.axis=1,cex.lab=1)
+
