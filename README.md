@@ -155,7 +155,7 @@ Using the hidden equation, **Figure 1** demonstrates that the model is watertigh
 src="https://github.com/marcoverpas/figures/blob/main/3io_pc_baseline.png" width="1000">
 </figure>
 
-The input-output matrix of Model IO-PC is shown in **Table 3**.
+The simplified input-output matrix of *Model 3IO-PC* is shown in **Table 3**.
 
 #### Table 3. Simplified input-output matrix
 
@@ -182,12 +182,14 @@ src="https://github.com/marcoverpas/figures/blob/main/sankeys.png" width="1000">
 
 For instance, the diagrams above illustrate the payments across social sectors and the flows of inputs across industries, respectively, in period 5. The related code can be found [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/5_Sankey_TFM_IO.R).
 
-Alternatively, network graphs can be used:
+Alternatively, network graphs can be used to illustrate the technical interdependencies among industries
 
 <figure>
 <img
 src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" width="500">
 </figure>
+
+Here, the size of each vertex is proportional to the corresponding industry's size.
 
 \:construction: Work in progress!
 
