@@ -230,9 +230,9 @@ Although the origins of ecological macroeconomics can be traced back to the ince
 
 Here we consider a simple extension of *Model 3IO-PC*, named *Model ECO-3IO-PC*, where **ECO** stands for "ecological". Additional assumptions are as follows:
 
-1. there are 2 types of reserves: matter and energy
+1. There are 2 types of reserves: matter and energy
 
-1. there are 2 types of energy: renewable and non-renewable
+1. There are 2 types of energy: renewable and non-renewable
 
 1. Resources are converted into reserves at a certain rate
 
@@ -284,7 +284,7 @@ $$k_h = k_{h,-1} + x_{mat} - dis \quad \text{(25)} $$
 
 $$wa = mat - (k_h - k_{h,-1}) \quad \text{(26)} $$
 
-Secondly, energy use and CO2 emissions are considered.
+Secondly, energy use and CO<sub>2</sub> emissions are considered.
 
 *Total energy* required for production:
 
@@ -306,7 +306,7 @@ Annual flow of *CO<sub>2</sub> emissions*:
 
 $$emis = \beta_{e} \cdot nen \quad \text{(30)} $$
 
-where $\beta_{e}$ is the CO2 intensity coefficient of non-renewable energy sources.
+where $\beta_{e}$ is the CO<sub>2</sub> intensity coefficient of non-renewable energy sources.
 
 *Cumulative* emissions:
 
