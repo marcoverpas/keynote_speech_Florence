@@ -152,29 +152,44 @@ The main `R` code for developing Model *3IO-PC* and conducting experiments can b
 
 Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of consumption and disposable income towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy (**Figure 3** and **Figure 4**) and the way prices are set (**Figure 5** and **Figure 6**).
 
-<!-- The input-output matrix of Model IO-PC is shown in **Table 3**. -->
-
-[to be continued]
-
-\:construction: Work in progress!
-
 <figure>
 <img
 src="https://github.com/marcoverpas/figures/blob/main/3io_pc_baseline.png" width="1000">
 </figure>
 
-<figure>
-<img
-src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" width="500">
-</figure>
+The input-output matrix of Model IO-PC is shown in **Table 3**.
+
+#### Table 3. Simplified input-output matrix
+
+|                             | Industry 1 (demand)  | Industry 2 (demand)  |  Final demand   |             Output              |
+|:----------------------------|:--------------------:|:--------------------:|:---------------:|:-------------------------------:|
+|                             |                      |                      |                 |                                 |
+| **Inudstry 1 (production)** | \$p_1 x_1 a\_{11} \$ | \$p_1 x_2 a\_{12} \$ | $p_1 \cdot d_1$ |         $p_1 \cdot x_1$         |
+| **Industry 2 (production)** | \$p_2 a\_{21} x_1 \$ | \$p_2 a\_{22} x_2 \$ | $p_2 \cdot d_2$ |         $p_2 \cdot x_2$         |
+| **Value added**             |        $yn_1$        |        $yn_2$        |      $yn$       |                                 |
+| **Output**                  |   $p_1 \cdot x_1$    |   $p_2 \cdot x_2$    |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
+
+*Note*: The code needed to generate **Table 3** can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/4_IO_Table.R).
+
+**Table 3** illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour.
+
+While figures 6 to 4 show the evolution of model variables over time, Sankey diagrams can be used to take snapshots of the economy in a specific period.
 
 <figure>
 <img
 src="https://github.com/marcoverpas/figures/blob/main/sankeys.png" width="1000">
 </figure>
 
-\:construction: Work in progress!
+For instance, the diagrams above illustrate the payments across social sectors and the flows of inputs across industries, respectively, in period 5. The related code can be found [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/5_Sankey_TFM_IO.R).
 
+Alternatively, network graphs can be used:
+
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" width="500">
+</figure>
+
+\:construction: Work in progress!
 
 ### 2.3 - Model ECO-3IO-PC
 
