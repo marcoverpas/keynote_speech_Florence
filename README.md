@@ -404,12 +404,23 @@ The related physical constraints (used to define ecosystem identities) are displ
 
 *Note*: The code needed to generate **Table 4** and **Table 5** can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/8_Mat_En_Tables.R).
 
-\:construction: Work in progress!
+Once again, the model is simulated over a 100-period time span. In addition to economic, financial, and industrial variables, the new code for *Model ECO-3IO-PC* also tracks environmental variables, such as matter and energy reserves (**Figure 7**), CO<sub>2</sub> emissions (**Figure 8** and **Figure 9**), and atmospheric temperature (**Figure 10**).
+
+<figure>
+<img
+src="https://github.com/marcoverpas/figures/blob/main/co_baseline.png" width="800">
+</figure>
+
+Note that the behaviour of the economy is qualitatively unchanged relative to *Model 3IO-PC*, except for the effect of rising temperature on consumption.
+
+Lastly, the physical flow relations and the physical stock-flow structure of the model can be visualised, for each period, using Sankey diagrams:
 
 <figure>
 <img
 src="https://github.com/marcoverpas/figures/blob/main/sankey_mat_en.png" width="800">
 </figure>
+
+\:construction: Work in progress!
 
 ---
 
