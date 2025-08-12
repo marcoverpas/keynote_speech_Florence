@@ -189,7 +189,7 @@ Alternatively, network graphs can be used to illustrate the technical interdepen
 src="https://github.com/marcoverpas/figures/blob/main/network_eco_3io_pc_2.png" width="500">
 </figure>
 
-Here, the size of each vertex is proportional to the corresponding industry's size.
+Here, the size of each vertex is proportional to the corresponding industry's size. The related code can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/7_IO_Network.R).
 
 \:construction: Work in progress!
 
