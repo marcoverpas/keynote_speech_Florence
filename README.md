@@ -420,7 +420,7 @@ Lastly, the physical flow relations and the physical stock-flow structure of the
 src="https://github.com/marcoverpas/figures/blob/main/sankey_mat_en.png" width="800">
 </figure>
 
-\:construction: Work in progress!
+The related code is available [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/6_Sankey_Mat_En.R). Note: while the diagrams above depict the aggregate economy, they can be easily adapted to apply to individual industries.
 
 ---
 
