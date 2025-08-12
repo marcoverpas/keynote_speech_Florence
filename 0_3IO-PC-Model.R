@@ -150,15 +150,15 @@ for (j in 1:nScenarios){
       
       # D) Price setting ####
       
-      # Set unit prices for each industry
+      # Set unit prices for each industry - eq. 17
       p[j,i,1] = (w/pr1) + (p[j,i,1]*A[1,1] + p[j,i,2]*A[2,1] + p[j,i,3]*A[3,1])*(1 + mu) 
       p[j,i,2] = (w/pr2) + (p[j,i,1]*A[1,2] + p[j,i,2]*A[2,2] + p[j,i,3]*A[3,2])*(1 + mu) 
       p[j,i,3] = (w/pr3) + (p[j,i,1]*A[1,3] + p[j,i,2]*A[2,3] + p[j,i,3]*A[3,3])*(1 + mu) 
       
-      # Average price for the consumers - eq. 17
+      # Average price for the consumers - eq. 18
       p_c[j,i] = t(p[j,i,]) %*% beta_c[j,i,]
       
-      # Average price for the government - eq. 18
+      # Average price for the government - eq. 19
       p_g[j,i] = t(p[j,i,]) %*% beta_g[j,i,]
       
       
@@ -173,7 +173,7 @@ for (j in 1:nScenarios){
       # Real consumption function with no monetary illusion - eq. 5.A.1 
       cons[j,i] = alpha1[j,i]*((yd[j,i]/p_c[j,i])-infl[j,i]) + alpha2*v[j,i-1]/p_c[j,i]
       
-      #Endogenous propensity to consume out of income
+      # Endogenous propensity to consume out of income - eq. 20
       alpha1[j,i] = alpha10 - alpha11*r[j,i-1]   
       
       # Inflation tax for households - eq. 5.A.1
@@ -361,3 +361,4 @@ plot(period,p_c[2,48:tspan],type="l",lwd=2,col="brown",
      ylab = '£',xlab = '',ylim=range(3,4))
 lines(period,p_g[2,48:tspan],type="l",lwd=2,col="gold3",lty=1)
 legend("topright",c("Consumer","Government"),  bty = 'n', cex=1, lty=c(1,1), lwd=c(2,2), col = c("brown","gold3"), box.lty=0)
+
