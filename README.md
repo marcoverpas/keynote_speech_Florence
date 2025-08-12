@@ -75,7 +75,7 @@ This is one of the simplest SFC toy models, and we will use it as our benchmark.
 
 ### 2.2 - Model 3IO-PC
 
-There are currently only a few prototype input-output SFC models, despite recent progress (e.g. Thomsen et al. 2025). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy ([Hardt and O’Neill, 2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
+There are currently only a few prototype input-output SFC models, despite recent progress (e.g. [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy ([Hardt and O’Neill, 2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
 *Model 3IO-PC* is an input-output extension of *Model PC*, where *3IO* stands for "three-industry input-output structure".
 
@@ -226,9 +226,7 @@ Here, the size of each vertex is proportional to the corresponding industry's si
 
 ### 2.3 - Model ECO-3IO-PC
 
-Although the origins of ecological macroeconomics can be traced back to the inception of economics itself, early SFC models for economic research did not incorporate the ecosystem.
-
-This gap was bridged in the late 2010s (e.g., Dafermos, Nikolaidi, and Galanis, [2017](https://www.sciencedirect.com/science/article/pii/S0921800916301343), [2018](https://www.sciencedirect.com/science/article/pii/S0921800917315161); and [Jackson and Victor, 2015](https://www.sciencedirect.com/science/article/abs/pii/S0921800915003766)). The primary characteristic of ecological SFC models is their integration of monetary variables (following [Godley and Lavoie, 2007](https://link.springer.com/book/10.1007/978-1-137-08599-3)) with physical variables (in line with [Georgescu-Roegen, 1971](http://dx.doi.org/10.4159/harvard.9780674281653)) in a consistent manner. Several ECO-SFC models have been developed since then.
+Although the origins of ecological macroeconomics can be traced back to the inception of economics itself, early SFC models for economic research did not incorporate the ecosystem. This gap was bridged in the late 2010s (e.g., Dafermos et al. [2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references), [2018](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); and [Jackson and Victor, 2015](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). The primary characteristic of ecological SFC models is their integration of monetary variables (following [Godley and Lavoie, 2007](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)) with physical variables (in line with [Georgescu-Roegen, 1971](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)) in a consistent manner. Several ECO-SFC models have been developed since then.
 
 Here we consider a simple extension of *Model 3IO-PC*, named *Model ECO-3IO-PC*, where **ECO** stands for "ecological". Additional assumptions are as follows:
 
@@ -304,7 +302,7 @@ where $\text{a}_{en}$ is the vector that defines the industry-specific shares of
 
 $$nen = en - ren \quad \text{(29)} $$
 
-Annual flow of *CO2 emissions*:
+Annual flow of *CO<sub>2</sub> emissions*:
 
 $$emis = \beta_{e} \cdot nen \quad \text{(30)} $$
 
@@ -318,7 +316,7 @@ Atmospheric *temperature*:
 
 $$temp = \frac{1}{1-fnc} \cdot tcre \cdot co2_{cum} \quad \text{(32)} $$
 
-where $fnc$ is the non-CO2 fraction of total anthropocentric forcing and $tcre$ is the transient climate response to cumulative carbon emissions.
+where $fnc$ is the non-CO<sub>2</sub> fraction of total anthropocentric forcing and $tcre$ is the transient climate response to cumulative carbon emissions.
 
 Thirdly, the dynamics of reserves is modelled.
 
@@ -340,7 +338,7 @@ $$res_m = res_{m,-1} - conv_m \quad \text{(35)} $$
 
 $$cen = \frac{emis}{car} \quad \text{(36)} $$
 
-where $car$ is the coefficient converting Gt of carbon into Gt of CO2.
+where $car$ is the coefficient converting Gt of carbon into Gt of CO<sub>2</sub>.
 
 Mass of *oxygen*:
 
@@ -360,9 +358,7 @@ Stock of *energy resources*:
 
 $$res_e = res_{e,-1} - conv_e \quad \text{(40)} $$
 
-Lastly, feedback effects and damages can be introduced. Here the
-assumption is made that the propensity to consume out of income is
-(negatively) influenced by climate change.
+Lastly, feedback effects and damages can be introduced. Here the assumption is made that the propensity to consume out of income is (negatively) influenced by climate change.
 
 New *propensity to consume* out of income:
 
@@ -395,12 +391,12 @@ The related physical constraints (used to define ecosystem identities) are displ
 
 #### Table 5. Physical stock-flow matrix
 
-|                                     |*Matter*     |*Energy*     |*CO2*            |*SES*       |
+|                                     |*Matter*     |*Energy*     |*CO<sub>2</sub>* |*SES*       |
 |:------------------------------------|:----------: |:----------: |:----------:     |:----------:|
 |                                     |             |             |                 |            |
 |**INITIAL STOCK**                    |$$k_{m,-1}$$ |$$k_{e,-1}$$ |$$co2_{cum,-1}$$ |$$k_{h,-1}$$|
 |Resources converted into reserves    |$$conv_m$$   |$$conv_e$$   |                 |            |
-|CO2 emissions                        |             |             |$$emis $$        |            |
+|CO<sub>2</sub> emissions             |             |             |$$emis $$        |            |
 |Production of material goods         |             |             |                 |$$x_{mat} $$|
 |Extraction of matter / use of energy |$$-mat$$     |$$-en $$     |                 |            |
 |Destruction of socio-economic stock  |             |             |                 |$$-dis$$    |
@@ -444,24 +440,30 @@ src="https://github.com/marcoverpas/figures/blob/main/Network_3.png" width="500"
 
 ## References
 
-- Carnevali, E., Deleidi, M., Pariboni, R., & Veronese Passarella, M. (2019). [**SFC dynamic models: features, limitations and developments**](https://link.springer.com/book/10.1007/978-3-030-23929-9). In: P. Arestis and M. Sawyer (eds.), \textit{Frontiers of Heterodox Economics, Series: International Papers in Political Economy}, Basingstoke \& New York: Palgrave Macmillan, pp. 223-276.
+- Carnevali, E., Deleidi, M., Pariboni, R., and Veronese Passarella, M. (2019). [**SFC dynamic models: features, limitations and developments**](https://link.springer.com/book/10.1007/978-3-030-23929-9). In: P. Arestis and M. Sawyer (eds.), *Frontiers of Heterodox Economics, Series: International Papers in Political Economy*, Palgrave Macmillan, pp. 223-276.
 
-- Dafermos, Y., Nikolaidi, M., & Galanis, G. (2017). [**A stock-flow-fund ecological macroeconomic model**](https://www.sciencedirect.com/science/article/pii/S0921800916301343). Ecological Economics, 131: 191-207.
+- Dafermos, Y., Nikolaidi, M., and Galanis, G. (2017). [**A stock-flow-fund ecological macroeconomic model**](https://www.sciencedirect.com/science/article/pii/S0921800916301343). *Ecological Economics*, 131: 191-207.
+
+- Dafermos, Y., Nikolaidi, M., and Galanis, G. (2017). [**Climate Change, Financial Stability and Monetary Policy**](https://doi.org/10.1016/j.ecolecon.2018.05.011). *Ecological Economics*, 152: 219-234.
 
 - Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., & Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
 
-- Godley, W., & Lavoie, M. (2007). [**Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth**](https://link.springer.com/book/10.1007/978-1-137-08599-3). Palgrave Macmillan. Chapters 1-4.
+- Georgescu-Roegen, N. (1971). [**The Entropy Law and the Economic Process**](http://dx.doi.org/10.4159/harvard.9780674281653). Harvard University Press.
 
-- Hardt, L., & O'Neill, D. W. (2017). [**Ecological Macroeconomic Models: Assessing Current Developments**](https://doi.org/10.1016/j.ecolecon.2016.12.027). Ecological Economics, 134: 198-211.
+- Godley, W., and Lavoie, M. (2007). [**Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth**](https://link.springer.com/book/10.1007/978-1-137-08599-3). Palgrave Macmillan. Chapters 1-4.
 
-- Miller, R. E., & Blair, P. D. (2009). [**Input-Output Analysis: Foundations and Extensions**](https://www.cambridge.org/core/books/inputoutput-analysis/69827DA658E766CD1E17B1A47BA2B9C3). Cambridge University Press, 2nd edition. Chapters 1-2.
+- Hardt, L., and O'Neill, D. W. (2017). [**Ecological Macroeconomic Models: Assessing Current Developments**](https://doi.org/10.1016/j.ecolecon.2016.12.027). *Ecological Economics*, 134: 198-211.
 
-- Thomsen, S. F., Raza, H., & Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, 238, 108741. 
+- Jackson, T., and Victor P. A. (2015). [**Does credit create a ‘growth imperative’? A quasi-stationary economy with interest-bearing debt**](https://www.sciencedirect.com/science/article/abs/pii/S0921800915003766). *Ecological Economics*, 120: 32-48.
 
-- Rivera, G.L., Malliet, P., Saussay, A., & Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157(3): 133-149.  
+- Miller, R. E., and Blair, P. D. (2009). [**Input-Output Analysis: Foundations and Extensions**](https://www.cambridge.org/core/books/inputoutput-analysis/69827DA658E766CD1E17B1A47BA2B9C3). Cambridge University Press, 2nd edition. Chapters 1-2.
+
+- Nikiforos, M., and Zezza, G. (2017). [**Stock-flow Consistent Macroeconomic Models: A Survey**](https://doi.org/10.1111/joes.12221). *Journal of Economic Surveys*, 3(5): 1204-1239.
+
+- Rivera, G.L., Malliet, P., Saussay, A., and Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157(3): 133-149.  
+
+- Thomsen, S. F., Raza, H., and Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, 238, 108741. 
 
 - Veronese Passarella, M. (2024). [**Notes for the 17th EAEPE Summer School**](https://github.com/marcoverpas/EAEPE_summer_school_2024). GitHub Repository.
 
 - Veronese Passarella, M. (2025). [**Issues in Monetary Policies and Monetary Circuits**](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025). GitHub Repository, Sections B1–B5.
-
-- Nikiforos, M., & Zezza, G. (2017). [**Stock-flow Consistent Macroeconomic Models: A Survey**](https://doi.org/10.1111/joes.12221). *Journal of Economic Surveys*, 3(5): 1204-1239.
