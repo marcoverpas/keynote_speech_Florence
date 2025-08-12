@@ -112,8 +112,8 @@ The macro-accounting structure of *Model 3IO-PC* is identical to that of Model P
 |                       |Households           |Firms             |Central bank             |Government           | Row. tot |
 |:----------------------|:---------------:    |:----------------:|:--------------:         |:--------------:     |:-------: |
 |                       |                     |                  |                         |                     |          |
-|Consumption            |$$p_c \cdot -c_d$$   |$$p_c \cdot C_s$$ |                         |                     |   0      |
-|Government expenditure |                     |$p_g \cdot $G$$   |                         |$$-p_g \cdot G$$     |   0      |
+|Consumption            |$$-p_c \cdot c_d$$   |$$p_c \cdot c_s$$ |                         |                     |   0      |
+|Government expenditure |                     |$$p_g \cdot $g$$  |                         |$$-p_g \cdot g$$     |   0      |
 |GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
 |Interest payments      |$$r \cdot B_{h,-1}$$ |                  |$$r \cdot B_{cb,-1}$$    |$$-r \cdot B_{s,-1}$$|   0      |
 |CB profit              |                     |                  |$$-r \cdot B_{cb,-1}$$   |$$r \cdot B_{cb,-1}$$|   0      |
@@ -128,7 +128,7 @@ The macro-accounting structure of *Model 3IO-PC* is identical to that of Model P
 
 For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. It is further assumed that the marginal propensity to consume out of income is a negative function of the interest rate, as an increase in $r$ redistributes income from wage earners to rentiers, who have a lower propensity to consume:
 
-$$\alpha_{1} = \alpha_{10} - \alpha_{11} \cdot r_{-1} $  
+$$\alpha_{1} = \alpha_{10} - \alpha_{11} \cdot r_{-1} $$  
 
 Under these assumptions, a few additional equations are required to transform *Model PC* (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into *Model 3IO-PC*.
 
