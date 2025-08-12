@@ -330,7 +330,7 @@ for (j in 1:nScenarios){
       
       # CLIMATE RELATED IMPACTS ####
       
-      # Endogenous propensity to consume out of income - eq. 20.A
+      # Endogenous propensity to consume out of income - eq. 12.A
       alpha1[j,i] = alpha10 - alpha11*r[j,i-1] - alpha12[j,i] * (temp[j,i] - temp[j,i-1])   
       
     }
@@ -464,5 +464,6 @@ plot(temp[1,2:tspan],type="l",
      main="Figure 10. Atmospheric temperature",
 
      ylab = 'C',xlab = '',cex.axis=1,cex.lab=1)
+
 
 
