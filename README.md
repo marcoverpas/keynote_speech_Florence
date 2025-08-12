@@ -402,7 +402,7 @@ The related physical constraints (used to define ecosystem identities) are displ
 |Destruction of socio-economic stock  |             |             |                 |$$-dis$$    |
 |**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
 
-*Note*: The code needed to generate **Table 4** and **Table 5** can be accessed [here](https://github.com/marcoverpas/EAEPE_summer_school_2024/blob/main/eaepe_eco_tables.R).
+*Note*: The code needed to generate **Table 4** and **Table 5** can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/8_Mat_En_Tables.R).
 
 \:construction: Work in progress!
 
