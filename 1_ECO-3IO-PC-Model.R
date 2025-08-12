@@ -331,7 +331,7 @@ for (j in 1:nScenarios){
       # CLIMATE RELATED IMPACTS ####
       
       #Endogenous propensity to consume out of income
-      alpha1[j,i] = alpha10 - alpha11*r[j,i] - alpha12[j,i] * (temp[j,i] - temp[j,i-1])   
+      alpha1[j,i] = alpha10 - alpha11*r[j,i-1] - alpha12[j,i] * (temp[j,i] - temp[j,i-1])   
       
     }
   }
@@ -462,4 +462,5 @@ legend("right", c("Annual", "Cumulative (right axis)"), bty = "n",
 plot(temp[1,2:tspan],type="l",
      col="cornflowerblue", lwd=3, lty=1, font.main=1,cex.main=1,
      main="Figure 10. Atmospheric temperature",
+
      ylab = 'C',xlab = '',cex.axis=1,cex.lab=1)
