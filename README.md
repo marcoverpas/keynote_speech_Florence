@@ -148,8 +148,6 @@ Note: the superscript $T$ stands for the transpose of the matrix, turning a colu
 
 Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of *Model PC*, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
 
-The main `R` code for developing Model *3IO-PC* and conducting experiments can be found [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/0_3IO-PC-Model.R).
-
 Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of consumption and disposable income towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy (**Figure 3** and **Figure 4**) and the way prices are set (**Figure 5** and **Figure 6**).
 
 <figure>
@@ -170,7 +168,8 @@ The input-output matrix of Model IO-PC is shown in **Table 3**.
 | **Value added**                |        $yn_1$        |        $yn_2$          |        $yn_3$        |      $yn$       |                                 |
 | **Output**                     |   $p_1 \cdot x_1$    |   $p_2 \cdot x_2$      |   $p_3 \cdot x_3$    |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
 
-*Note*: The code needed to generate **Table 3** can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/4_IO_Table.R).
+*Note*: The main `R` code for developing Model *3IO-PC* and conducting experiments can be found [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/0_3IO-PC-Model.R).
+The code needed to generate *Table 3* can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/4_IO_Table.R).
 
 **Table 3** illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour.
 
