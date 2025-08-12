@@ -338,7 +338,7 @@ $$res_m = res_{m,-1} - conv_m \quad \text{(35)} $$
 
 $$cen = \frac{emis}{car} \quad \text{(36)} $$
 
-where $car$ is the coefficient converting Gt of carbon into Gt of CO<sub>2</sub>.
+where $car$ is the coefficient converting $Gt$ of carbon into $Gt$ of CO<sub>2</sub>.
 
 Mass of *oxygen*:
 
