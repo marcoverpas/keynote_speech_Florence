@@ -452,7 +452,7 @@ The ecological transition is commonly understood as the shift towards a more sus
 
 - Extending product lifetimes (PLE)
 
-Despite its simplicity, *Model ECO-3IO-PC* enables the simulation of scenarios related to each of these CE interventions. These can be conveniently represented as combinations of changes in the values of coefficients and exogenous variables.
+Despite its simplicity, *Model ECO-3IO-PC* enables the simulation of scenarios related to each of these CE interventions. These can be conveniently represented as combinations of changes in the values of coefficients and exogenous variables ([Fevereiro et al. 2024](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
 For example, PLE interventions can be conceptualised as a combination of increased product durability and a reduced discarding rate of durable goods, potentially stimulated by higher government expenditure - such as incentives offered to firms and consumers. In a more complex model incorporating fixed capital, PLE would also be associated with a lower depreciation rate of that capital.
 
@@ -482,6 +482,8 @@ src="https://github.com/marcoverpas/figures/blob/main/Network_3.png" width="500"
 - Dafermos, Y., Nikolaidi, M., and Galanis, G. (2017). [**A stock-flow-fund ecological macroeconomic model**](https://www.sciencedirect.com/science/article/pii/S0921800916301343). *Ecological Economics*, 131: 191-207.
 
 - Dafermos, Y., Nikolaidi, M., and Galanis, G. (2017). [**Climate Change, Financial Stability and Monetary Policy**](https://doi.org/10.1016/j.ecolecon.2018.05.011). *Ecological Economics*, 152: 219-234.
+
+- Fevereiro, J. B. R. T., Genovese, A., Valles Codina, O., and Veronese Passarella, M. (2024). [**Scenario Analysis. Policy Briefs**](https://just2ce.eu/wp-content/uploads/2024/11/Attachment_D5.3.pdf). JUST2CE Project, D5.3.
 
 - Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., and Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
 
