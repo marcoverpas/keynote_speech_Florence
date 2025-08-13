@@ -452,7 +452,7 @@ The ecological transition is commonly understood as the shift towards a more sus
 
 - Extending product lifetimes (PLE)
 
-Despite its simplicity, the ECO-3IO-PC model enables the simulation of scenarios related to each of these CE interventions.
+Despite its simplicity, *Model ECO-3IO-PC* enables the simulation of scenarios related to each of these CE interventions. These can be conveniently represented as combinations of changes in the values of coefficients and exogenous variables. For example, PLE interventions can be conceptualised as a combination of increased product durability and a reduced discarding rate of durable goods, potentially stimulated by higher government expenditure - such as incentives offered to firms and consumers. In a more complex model incorporating fixed capital, PLE would also be associated with a lower depreciation rate of that capital. Similarly, CSC interventions can be modelled by assuming that inputs produced from virgin raw materials are progressively replaced with inputs derived from reprocessed secondary materials, which entails changes in technical coefficients, an increase in the recycling rate and a reduction in the extraction rate. Once again, these interventions can be triggered or fostered by the government through increased spending or targeted tax cuts.
 
 \:construction: Work in progress!
 
