@@ -23,7 +23,9 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [3 - Playing with the Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#3-playing-with-the-model)
 
-- [4 - A More Advanced Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#4-a-more-advanced-model)
+- [4 - Additional Experiments](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#4-additional-experiments)
+
+- [5 - A More Advanced Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#5-a-more-advanced-model)
 
 - [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#references)
 
@@ -438,7 +440,25 @@ One of the advantages of creating formal models using `R` is that they can be co
 
 ---
 
-## 4. A More Advanced Model
+## 4. Additional Experiments
+
+The ecological transition is commonly understood as the shift towards a more sustainable economy and society. This entails moving from a linear economic model - characterised by extraction, production, consumption, and disposal - to a circular economy (CE) that emphasises reuse, repair, and recycling. Following [Aguilar-Hernandez et al. (2018)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references), CE can be categorised in terms of:
+
+- Closing supply chains (CSC)
+
+- Enhancing resource efficiency (RE)
+
+- Managing residual waste (RWM)
+
+- Extending product lifetimes (PLE)
+
+Despite its simplicity, the ECO-3IO-PC model enables the simulation of scenarios related to each of these CE interventions.
+
+\:construction: Work in progress!
+
+---
+
+## 5. A More Advanced Model
 
 \:construction: Work in progress!
 
@@ -450,6 +470,8 @@ src="https://github.com/marcoverpas/figures/blob/main/Network_3.png" width="500"
 ---
 
 ## References
+
+- Aguilar-Hernandez, G. A., Sigüenza-Sanchez, C. P., Donati, F., Rodrigues, J. F., and Tukker, A. (2018). [**Assessing circularity interventions: a review of EEIOA-based studies**](https://journalofeconomicstructures.springeropen.com/articles/10.1186/s40008-018-0113-3). *Journal of Economic Structures*, 7(14): 1-24.
 
 - Carnevali, E., Deleidi, M., Pariboni, R., and Veronese Passarella, M. (2019). [**SFC dynamic models: features, limitations and developments**](https://link.springer.com/book/10.1007/978-3-030-23929-9). In: P. Arestis and M. Sawyer (eds.), *Frontiers of Heterodox Economics, Series: International Papers in Political Economy*, Palgrave Macmillan, pp. 223-276.
 
