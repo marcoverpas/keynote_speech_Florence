@@ -493,7 +493,7 @@ Using an ecological 20IO-SFC model calibrated for Italy, [Veronese Passarella (2
 
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/Network_3.png" width="500">
+src="https://github.com/marcoverpas/figures/blob/main/madme_figures_web.png" width="1000">
 </figure><br><br>
 
 :construction: Work in progress!
