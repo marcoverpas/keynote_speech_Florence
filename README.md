@@ -49,6 +49,8 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 ---
 
+:construction: Warning: work in progress!
+
 ## 1 - Introduction
 
 ### 1.1 - Standard Modelling Approaches
@@ -507,7 +509,11 @@ src="https://github.com/marcoverpas/figures/blob/main/madme_figures_web.png" wid
 
 ## 6 - Final remarks 
 
-:construction: Work in progress!
+The prototype *Model ECO-3IO-PC* presented here is not intended as a fully fledged policy tool, but rather as a transparent and adaptable framework for exploring the interplay between industrial structure, financial dynamics, and ecological constraints. By integrating the industrial detail of IO analysis with the dynamic and accounting coherence of SFC modelling, it allows for richer analyses of ecological transition pathways than either approach can provide in isolation.
+
+While the model’s simplicity is deliberate, its modular design means it can be progressively extended - for example, by introducing additional sectors, industries, regions, behavioural equations, or more complex representations of technological change and environmental feedbacks. The aim is to offer early-career researchers, students, and policymakers an accessible starting point from which to test hypotheses, compare transition strategies, and assess their socio-economic and environmental implications over time.
+
+Ultimately, the ecological transition is not merely a technical challenge, but a systemic transformation involving production, finance, institutions, and the biosphere. Hybrid IO-SFC models such as *Model ECO-3IO-PC* can help to make these interdependencies explicit, support informed debate, and guide the design of policies that are both economically viable and ecologically sustainable.
 
 ---
 
