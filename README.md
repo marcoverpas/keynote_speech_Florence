@@ -428,7 +428,7 @@ The related code is available [here](https://github.com/marcoverpas/keynote_spee
 
 ## 3. Playing with the Model
 
-One of the advantages of creating formal models using `R` is that they can be conveniently converted into online interactive models using the `Shiny` package. Click the link below (or the figure) to open the simulation laboratory for *Model ECO-3IO-PC*.
+One of the advantages of creating formal models using `R` is that they can be conveniently converted into online interactive models using the `Shiny` package. 
 
 [![Open Shiny App](https://img.shields.io/badge/Launch-Shiny_App-blue?style=for-the-badge&logo=r)](https://x52gnt-marco-passarella.shinyapps.io/eco_3io_sfc_model/)
 
@@ -437,6 +437,8 @@ One of the advantages of creating formal models using `R` is that they can be co
 <img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory.png" width="1000">
 </a>
 </figure>
+
+Click the link above (or the figure) to open the simulation laboratory for *Model ECO-3IO-PC*.
 
 ---
 
@@ -466,6 +468,7 @@ Similarly, CSC interventions can be modelled by assuming that inputs produced fr
 </a>
 </figure>
 
+Click the link above (or the figure) to launch the additional experiments with *Model ECO-3IO-PC*.
 
 ---
 
