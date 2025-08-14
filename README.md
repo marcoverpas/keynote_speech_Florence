@@ -475,17 +475,17 @@ Click the link above (or the figure) to launch the additional experiments with *
 
 ## 5. More Advanced Models
 
-Simplified though it is, *Model ECO-3IO-PC* can serve as a foundation for more sophisticated models. Recent examples include the one being developed by Fevereiro et al. (2025b) and the one by Veronese Passarella (2025). A short description of each is provided below. 
+Simplified though it is, *Model ECO-3IO-PC* can serve as a foundation for more sophisticated models. Recent examples include the one being developed by [Fevereiro et al. (2024)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) and the one by [Veronese Passarella (2025b)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references). A short description of each is provided below. 
 
 ### 5.1 Circular Economy Interventions in a 2-Area World Economy Model
 
-Using an open-economy ecological 5IO-SFC model calibrated for the European Union and the rest of the world, Fevereiro et al. (2025) show that CE interventions in the former have significant impacts on the latter. Moreover, trade-offs between social, economic, and environmental targets are unavoidable, thus requiring some form of democratic planning of policy decisions.  
+Using an open-economy ecological 5IO-SFC model calibrated for the European Union and the rest of the world, [Fevereiro et al. (2024)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) show that CE interventions in the former have significant impacts on the latter. Moreover, trade-offs between social, economic, and environmental targets are unavoidable, thus requiring some form of democratic planning of policy decisions.  
 
 :construction: Work in progress!
 
 ### 5.2 Assessing Green Transition Policies 
 
-Using an ecological 20IO-SFC model calibrated for Italy, Veronese Passarella (2025) shows that the transition to an economy based on renewable energy sources can take time (because of rebound effects) and is likely to have uneven effects on different social groups.  
+Using an ecological 20IO-SFC model calibrated for Italy, [Veronese Passarella (2025b)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) shows that the transition to an economy based on renewable energy sources can take time (because of rebound effects) and is likely to have uneven effects on different social groups.  
 
 <figure>
 <img
@@ -528,4 +528,6 @@ src="https://github.com/marcoverpas/figures/blob/main/Network_3.png" width="500"
 
 - Veronese Passarella, M. (2024). [**Notes for the 17th EAEPE Summer School**](https://github.com/marcoverpas/EAEPE_summer_school_2024). GitHub Repository.
 
-- Veronese Passarella, M. (2025). [**Issues in Monetary Policies and Monetary Circuits**](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025). GitHub Repository, Sections B1–B5.
+- Veronese Passarella, M. (2025a). [**Issues in Monetary Policies and Monetary Circuits**](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025). GitHub Repository, Sections B1–B5.
+
+- Veronese Passarella, M. (2025b). [**An Empirically Calibrated IO-SFC Model for Assessing Green Transition Policies in Italy**](https://www.marcopassarella.it/en/an-io-sfc-model-for-the-italian-economy-2/), working paper presented at MADME Conference, Venice, 29-30 May 2025.
