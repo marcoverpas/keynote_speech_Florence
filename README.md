@@ -492,11 +492,14 @@ Using an open-economy ecological 5IO-SFC model calibrated for the European Union
 Using an ecological 20IO-SFC model calibrated for Italy, [Veronese Passarella (2025b)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) shows that the transition to an economy based on renewable energy sources can take time (because of rebound effects) and is likely to have uneven effects on different social groups.  
 
 <figure>
+<a href="https://www.marcopassarella.it/en/an-io-sfc-model-for-the-italian-economy-2/" target="_blank">
 <img
 src="https://github.com/marcoverpas/figures/blob/main/madme_figures_web.png" width="1000">
-</figure><br><br>
+</figure>
 
-:construction: Work in progress!
+
+
+
 
 ---
 
