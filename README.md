@@ -458,7 +458,14 @@ For example, PLE interventions can be conceptualised as a combination of increas
 
 Similarly, CSC interventions can be modelled by assuming that inputs produced from virgin raw materials are progressively replaced with inputs derived from reprocessed secondary materials, which entails changes in technical coefficients, an increase in the recycling rate and a reduction in the extraction rate. Once again, these interventions can be triggered or fostered by the government through increased spending or targeted tax cuts.
 
-\:construction: Work in progress!
+[![Open Shiny App](https://img.shields.io/badge/Launch-Shiny_App-blue?style=for-the-badge&logo=r)](https://x52gnt-marco-passarella.shinyapps.io/eco_3io_additional_experiments/)
+
+<figure>
+<a href="https://x52gnt-marco-passarella.shinyapps.io/eco_3io_additional_experiments/" target="_blank">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory_experiments.png" width="1000">
+</a>
+</figure>
+
 
 ---
 
