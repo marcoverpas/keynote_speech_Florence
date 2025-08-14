@@ -25,7 +25,7 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [4 - Additional Experiments](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#4-additional-experiments)
 
-- [5 - A More Advanced Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#5-a-more-advanced-model)
+- [5 - More Advanced Models](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#5-more-advanced-models)
 
 - [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#references)
 
@@ -473,14 +473,26 @@ Click the link above (or the figure) to launch the additional experiments with *
 
 ---
 
-## 5. A More Advanced Model
+## 5. More Advanced Models
 
-\:construction: Work in progress!
+Simplified though it is, *Model ECO-3IO-PC* can serve as a foundation for more sophisticated models. Recent examples include the one being developed by Fevereiro et al. (2025b) and the one by Veronese Passarella (2025). A short description of each is provided below. 
+
+### 5.1 Circular Economy Interventions in a 2-Area World Economy Model
+
+Using an open-economy ecological 5IO-SFC model calibrated for the European Union and the rest of the world, Fevereiro et al. (2025) show that CE interventions in the former have significant impacts on the latter. Moreover, trade-offs between social, economic, and environmental targets are unavoidable, thus requiring some form of democratic planning of policy decisions.  
+
+:construction: Work in progress!
+
+### 5.2 Assessing Green Transition Policies 
+
+Using an ecological 20IO-SFC model calibrated for Italy, Veronese Passarella (2025) shows that the transition to an economy based on renewable energy sources can take time (because of rebound effects) and is likely to have uneven effects on different social groups.  
 
 <figure>
 <img
 src="https://github.com/marcoverpas/figures/blob/main/Network_3.png" width="500">
-</figure>
+</figure><br><br>
+
+:construction: Work in progress!
 
 ---
 
