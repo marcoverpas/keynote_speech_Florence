@@ -485,7 +485,11 @@ Simplified though it is, *Model ECO-3IO-PC* can serve as a foundation for more s
 
 Using an open-economy ecological 54IO-SFC model calibrated for the European Union and the rest of the world, [Fevereiro et al. (2024)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) show that CE interventions in the former have significant impacts on the latter. Moreover, trade-offs between social, economic, and environmental targets are unavoidable, thus requiring some form of democratic planning of policy decisions.  
 
-:construction: Work in progress!
+<figure>
+<a href="https://just2ce.eu/wp-content/uploads/2024/11/Attachment_D5.3.pdf" target="_blank">
+<img
+src="https://github.com/marcoverpas/figures/blob/main/fevereiro_2024.png" width="1000">
+</figure>
 
 ### 5.2 Assessing Green Transition Policies 
 
@@ -497,9 +501,11 @@ Using an ecological 20IO-SFC model calibrated for Italy, [Veronese Passarella (2
 src="https://github.com/marcoverpas/figures/blob/main/madme_figures_web.png" width="1000">
 </figure>
 
+---
 
+## Final remarks 
 
-
+:construction: Work in progress!
 
 ---
 
