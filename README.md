@@ -483,7 +483,7 @@ Simplified though it is, *Model ECO-3IO-PC* can serve as a foundation for more s
 
 ### 5.1 Circular Economy Interventions in a 2-Area World Economy Model
 
-Using an open-economy ecological 5IO-SFC model calibrated for the European Union and the rest of the world, [Fevereiro et al. (2024)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) show that CE interventions in the former have significant impacts on the latter. Moreover, trade-offs between social, economic, and environmental targets are unavoidable, thus requiring some form of democratic planning of policy decisions.  
+Using an open-economy ecological 54IO-SFC model calibrated for the European Union and the rest of the world, [Fevereiro et al. (2024)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) show that CE interventions in the former have significant impacts on the latter. Moreover, trade-offs between social, economic, and environmental targets are unavoidable, thus requiring some form of democratic planning of policy decisions.  
 
 :construction: Work in progress!
 
