@@ -21,15 +21,17 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [2.3 - Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#23---model-eco-3io-pc)
 
-- [3 - Playing with the Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#3-playing-with-the-model)
+- [3 - Playing with the Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#3---playing-with-the-model)
 
-- [4 - Additional Experiments](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#4-additional-experiments)
+- [4 - Additional Experiments](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#4---additional-experiments)
 
-- [5 - More Advanced Models](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#5-more-advanced-models)
+- [5 - More Advanced Models](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#5---more-advanced-models)
 
-- [5.1 - Circular Economy Intervention in a 2-Area World Economy Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#51-circular-economy-interventions-in-a-2-area-world-economy-model)
+- [5.1 - Circular Economy Intervention in a 2-Area World Economy Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#51---circular-economy-interventions-in-a-2-area-world-economy-model)
 
-- [5.2 - Assessing Green Transition Policies](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#52-assessing-green-transition-policies)
+- [5.2 - Assessing Green Transition Policies](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#52---assessing-green-transition-policies)
+
+- [6 - Final remarks](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#6---final-remarks)
 
 - [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#references)
 
@@ -430,7 +432,7 @@ The related code is available [here](https://github.com/marcoverpas/keynote_spee
 
 ---
 
-## 3. Playing with the Model
+## 3 - Playing with the Model
 
 One of the advantages of creating formal models using `R` is that they can be conveniently converted into online interactive models using the `Shiny` package. 
 
@@ -447,7 +449,7 @@ Click the link above (or the figure) to open the simulation laboratory for *Mode
 
 ---
 
-## 4. Additional Experiments
+## 4 - Additional Experiments
 
 The ecological transition is commonly understood as the shift towards a more sustainable economy and society. This entails moving from a linear economic model - characterised by extraction, production, consumption, and disposal - to a circular economy (CE) that emphasises reuse, repair, and recycling. Following [Aguilar-Hernandez et al. (2018)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references), CE can be categorised in terms of:
 
@@ -477,11 +479,11 @@ Click the link above (or the figure) to launch the additional experiments with *
 
 ---
 
-## 5. More Advanced Models
+## 5 - More Advanced Models
 
 Simplified though it is, *Model ECO-3IO-PC* can serve as a foundation for more sophisticated models. Recent examples include the one being developed by [Fevereiro et al. (2024)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) and the one by [Veronese Passarella (2025b)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references). A short description of each is provided below. 
 
-### 5.1 Circular Economy Interventions in a 2-Area World Economy Model
+### 5.1 - Circular Economy Interventions in a 2-Area World Economy Model
 
 Using an open-economy ecological 54IO-SFC model calibrated for the European Union and the rest of the world, [Fevereiro et al. (2024)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) show that CE interventions in the former have significant impacts on the latter. Moreover, trade-offs between social, economic, and environmental targets are unavoidable, thus requiring some form of democratic planning of policy decisions.  
 
@@ -491,7 +493,7 @@ Using an open-economy ecological 54IO-SFC model calibrated for the European Unio
 src="https://github.com/marcoverpas/figures/blob/main/fevereiro_2024.png" width="1000">
 </figure>
 
-### 5.2 Assessing Green Transition Policies 
+### 5.2 - Assessing Green Transition Policies 
 
 Using an ecological 20IO-SFC model calibrated for Italy, [Veronese Passarella (2025b)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references) shows that the transition to an economy based on renewable energy sources can take time (because of rebound effects) and is likely to have uneven effects on different social groups.  
 
@@ -503,7 +505,7 @@ src="https://github.com/marcoverpas/figures/blob/main/madme_figures_web.png" wid
 
 ---
 
-## Final remarks 
+## 6 - Final remarks 
 
 :construction: Work in progress!
 
