@@ -437,6 +437,7 @@ One of the advantages of creating formal models using `R` is that they can be co
 <img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory.png" width="1000">
 </a>
 </figure>
+<br>
 
 Click the link above (or the figure) to open the simulation laboratory for *Model ECO-3IO-PC*.
 
@@ -466,7 +467,7 @@ Similarly, CSC interventions can be modelled by assuming that inputs produced fr
 <a href="https://x52gnt-marco-passarella.shinyapps.io/eco_3io_additional_experiments/" target="_blank">
 <img src="https://raw.githubusercontent.com/marcoverpas/figures/main/laboratory_experiments.png" width="1000">
 </a>
-</figure>
+</figure><br>
 
 Click the link above (or the figure) to launch the additional experiments with *Model ECO-3IO-PC*.
 
