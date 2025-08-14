@@ -27,6 +27,10 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [5 - More Advanced Models](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#5-more-advanced-models)
 
+- [5.1 - Circular Economy Intervention in a 2-Area World Economy Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#51---circular-economy-interventions-in-a-2-area-world-economy-model)
+
+- [5.2 - Assessing Green Transition Policies](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#52---assessing-green-transition-policies)
+
 - [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#references)
 
 ---
