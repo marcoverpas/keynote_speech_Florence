@@ -198,7 +198,9 @@ Using the hidden equation, **Figure 1** demonstrates that the model is watertigh
 src="https://github.com/marcoverpas/figures/blob/main/3io_pc_baseline.png" width="1000">
 </figure>
 
-*Note*: In principle, intermediate consumption can be included in the TFM by splitting the firm sector into three sub-sectors, corresponding to the three industries. However, as the number of industries increases, the TFM quickly becomes cumbersome without adding much information of relevance to sectoral balances. This is because intermediate consumption is an internal exchange within the firm sector, so that the sub-sector entries cancel out at the end of the period. By contrast, cross-industry interdependencies are more appropriately analysed through the input–output table, which is designed to capture the technological structure of production. The simplified input-output matrix of *Model 3IO-PC* is shown in **Table 3**.
+*Note*: In principle, intermediate consumption can be included in the transactions-flow matrix by splitting the firm sector into three sub-sectors, corresponding to the three industries. However, as the number of industries increases, the TFM quickly becomes cumbersome without adding much information of relevance to sectoral balances. This is because intermediate consumption is an internal exchange within the firm sector, so that the sub-sector entries cancel out at the end of the period. By contrast, cross-industry interdependencies are more appropriately analysed through the input–output table, which is designed to capture the technological structure of production.
+
+The simplified input-output matrix of *Model 3IO-PC* is shown in **Table 3**.
 
 #### Table 3. Simplified input-output matrix
 
