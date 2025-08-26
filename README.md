@@ -205,7 +205,7 @@ The simplified input-output matrix of *Model 3IO-PC* is shown in **Table 3**.
 #### Table 3. Simplified input-output matrix
 
 |                                     | Agriculture (demand)             | Manufacturing (demand)             | Services (demand)                                  |  Final demand   |             Output              |
-|:-----             |:--------------------:            |:--------------------:              |:--------------------:                              |:---------------:|:-------------------------------:|
+|:--             |:--------------------:            |:--------------------:              |:--------------------:                              |:---------------:|:-------------------------------:|
 |                                     |                                  |                                    |                                                    |                 |                                 |
 | **Agriculture (production)**        | \$p_1 \cdot a\_{11} \cdot x_1 \$ | \$p_1 \cdot a\_{12} \cdot x_2 \$   | \$p_1 \cdot a\_{13} \cdot x_3 \$                   | $p_1 \cdot d_1$ |         $p_1 \cdot x_1$         |
 | **Manufacturing (production)**      | \$p_2 \cdot a\_{21} \cdot x_1 \$ | \$p_2 \cdot a\_{22} \cdot x_2 \$   | \$p_2 \cdot a\_{23} \cdot x_3 \$                   | $p_2 \cdot d_2$ |         $p_2 \cdot x_2$         |
