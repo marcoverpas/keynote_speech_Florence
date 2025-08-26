@@ -216,7 +216,7 @@ The simplified input-output matrix of *Model 3IO-PC* is shown in **Table 3**.
 *Note*: The main `R` code for developing Model *3IO-PC* and conducting experiments can be found [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/0_3IO-PC-Model.R).
 The code needed to generate *Table 3* can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/4_IO_Table.R).
 
-**Table 3** illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour.
+**Table 3** illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour. Since incomes and taxes are only calculated at the aggregate level, industry-specific value added ($Y_1$, $Y_2$ and $Y_3$) is derived residually as the difference between total output and the value of inputs employed in each industry.
 
 While figures 6 to 4 show the evolution of model variables over time, Sankey diagrams can be used to take snapshots of the economy in a specific period.
 
