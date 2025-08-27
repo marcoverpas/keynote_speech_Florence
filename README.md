@@ -35,6 +35,8 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#references)
 
+You can access the lecture slides [here](https://www.marcopassarella.it/wp-content/uploads/Presentation_Florence.pdf).
+
 ---
 
 ## Abstract
