@@ -35,9 +35,9 @@ alpha11 <- 8 #Interest rate elasticity of propensity to consume out of income (m
 alpha2 <- 0.4 #Propensity to consume out of wealth
 w <- 0.4 #Uniform wage rate
 mu <- 0.875 #Uniform mark-up
-pr1 <- 1 #Labour productivity in industry 1
-pr2 <- 1 #Labour productivity in industry 2
-pr3 <- 1 #Labour productivity in industry 3
+pr1 <- 3.5 #Labour productivity in industry 1
+pr2 <- 5 #Labour productivity in industry 2
+pr3 <- 2.2 #Labour productivity in industry 3
 lambda0 <- 0.635 #Autonomous share of bills
 lambda1 <- 5 #Elasticity of bills demand to interest rate
 lambda2 <- 0.01 #Elasticity of bills demand to yd/v
@@ -358,8 +358,9 @@ legend("topright",c("Agriculture","Manufacturing","Services"),  bty = 'n', cex=1
 plot(period,p_c[2,48:tspan],type="l",lwd=2,col="brown",
      main="Figure 6. Price indexes by sector",
      font.main=1,cex.main=1,
-     ylab = '£',xlab = '',ylim=range(3,4))
+     ylab = '£',xlab = '',ylim=range(0.9,1.1))
 lines(period,p_g[2,48:tspan],type="l",lwd=2,col="gold3",lty=1)
 legend("topright",c("Consumer","Government"),  bty = 'n', cex=1, lty=c(1,1), lwd=c(2,2), col = c("brown","gold3"), box.lty=0)
+
 
 
