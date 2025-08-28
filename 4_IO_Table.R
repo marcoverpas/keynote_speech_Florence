@@ -1,6 +1,6 @@
 # IO table for Model 3IO-PC
 # Created by Marco Veronese Passarella
-# Last revision: 11 August 2025
+# Last revision: 28 August 2025
 
 # Upload libraries ####
 library(knitr)
@@ -128,3 +128,4 @@ IO_Matrix %>%
   kable_classic(full_width = F, html_font = "helvetica") %>%
 
   print()
+
