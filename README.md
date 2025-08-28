@@ -202,7 +202,7 @@ src="https://github.com/marcoverpas/figures/blob/main/combined_anim_charts_2.gif
 
 *Note*: In principle, intermediate consumption can be included in the transactions-flow matrix by splitting the firm sector into three sub-sectors, corresponding to the three industries. However, as the number of industries increases, the transactions-flow quickly becomes cumbersome without adding much information of relevance to sectoral balances. This is because intermediate consumption is an internal exchange within the firm sector, so that the sub-sector entries cancel out at the end of the period. By contrast, cross-industry interdependencies are more appropriately analysed through the input-output table, which is designed to capture the technological structure of production.
 
-The simplified input-output matrix of *Model 3IO-PC* is shown in **Table 3**.
+The simplified input-output matrix of *Model 3IO-PC* is presented in **Table 3**, where $j = 1, 2, 3$ is the industry index, $WB$ represents total labour income (wages), and $PF$ denotes total capital income (profits).
 
 #### Table 3. Simplified input-output matrix
 
