@@ -13,16 +13,23 @@ rownames <-c( "Agriculture (production)",
               "Manufacturing (production)",
               "Services (production)",
               "Value added",
+              "- Labour income",
+              "- Capital income",
               "Output"
 )
+
+# Calculate intermediate consumption by industry
+k1 <- x[1,yr,1]*(a11*p[1,yr,1]+a21*p[1,yr,2]+a31*p[1,yr,3])
+k2 <- x[1,yr,2]*(a12*p[1,yr,1]+a22*p[1,yr,2]+a32*p[1,yr,3])
+k3 <- x[1,yr,3]*(a13*p[1,yr,1]+a23*p[1,yr,2]+a33*p[1,yr,3])
 
 # Create Agriculture column ####
 Agr <- c(round(x[1,yr,1]*a11*p[1,yr,1], digits = 2),                                                                    
           round(x[1,yr,1]*a21*p[1,yr,2], digits = 2),
           round(x[1,yr,1]*a31*p[1,yr,3], digits = 2),
-          round(x[1,yr,1]*p[1,yr,1]-(x[1,yr,1]*a11*p[1,yr,1]
-                                    +x[1,yr,1]*a21*p[1,yr,2]
-                                    +x[1,yr,1]*a31*p[1,yr,3]), digits = 2),
+          round(x[1,yr,1]*p[1,yr,1]-k1, digits = 2),
+          round(w*x[1,yr,1]/pr1, digits = 2),
+          round(mu*k1, digits = 2), 
           round(x[1,yr,1]*p[1,yr,1], digits = 2)
 )
 
@@ -34,9 +41,9 @@ kable(IO_Agr)
 Man <- c(round(x[1,yr,2]*a12*p[1,yr,1], digits = 2),                                                                    
           round(x[1,yr,2]*a22*p[1,yr,2], digits = 2),
           round(x[1,yr,2]*a32*p[1,yr,3], digits = 2),
-          round(x[1,yr,2]*p[1,yr,2]-(x[1,yr,2]*a12*p[1,yr,1]
-                                    +x[1,yr,2]*a22*p[1,yr,2]
-                                    +x[1,yr,2]*a32*p[1,yr,3]), digits = 2),
+          round(x[1,yr,2]*p[1,yr,2]-k2, digits = 2),
+          round(w*x[1,yr,2]/pr2, digits = 2),
+          round(mu*k2, digits = 2), 
           round(x[1,yr,2]*p[1,yr,2], digits = 2)
 )
 
@@ -48,9 +55,9 @@ kable(IO_Man)
 Ser <- c(round(x[1,yr,3]*a13*p[1,yr,1], digits = 2),                                                                    
           round(x[1,yr,3]*a23*p[1,yr,2], digits = 2),
           round(x[1,yr,3]*a33*p[1,yr,3], digits = 2),
-          round(x[1,yr,3]*p[1,yr,3]-(x[1,yr,3]*a13*p[1,yr,1]
-                                    +x[1,yr,3]*a23*p[1,yr,2]
-                                    +x[1,yr,3]*a33*p[1,yr,3]), digits = 2),
+          round(x[1,yr,3]*p[1,yr,3]-k3, digits = 2),
+          round(w*x[1,yr,3]/pr3, digits = 2),
+          round(mu*k3, digits = 2), 
           round(x[1,yr,3]*p[1,yr,3], digits = 2)
 )
 
@@ -63,8 +70,13 @@ Dem <- c(round(d[1,yr,1]*p[1,yr,1], digits = 2),
          round(d[1,yr,2]*p[1,yr,2], digits = 2),
          round(d[1,yr,3]*p[1,yr,3], digits = 2),
          round((d[1,yr,1]*p[1,yr,1]
-               +d[1,yr,2]*p[1,yr,2]
-               +d[1,yr,3]*p[1,yr,3]), digits = 2),
+                +d[1,yr,2]*p[1,yr,2]
+                +d[1,yr,3]*p[1,yr,3]), digits = 2),
+         round(w*x[1,yr,1]/pr1 +
+               w*x[1,yr,2]/pr2 +
+               w*x[1,yr,3]/pr3, digits = 2),
+         round(mu*(k1 + k2 + k3), digits = 2), 
+         
          "")
 
 # Create table of results
@@ -84,6 +96,8 @@ Out <- c(round(x[1,yr,1]*a11*p[1,yr,1]
               +x[1,yr,2]*a32*p[1,yr,3]
               +x[1,yr,3]*a33*p[1,yr,3]
               +d[1,yr,3]*p[1,yr,3], digits = 2),
+         "",
+         "",
          "",
          round(p[1,yr,1]*x[1,yr,1]
               +p[1,yr,2]*x[1,yr,2]
@@ -112,4 +126,5 @@ IO_Matrix %>%
       col.names = c("Agriculture (demand)","Manufacturing (demand)","Services (demand)","Final demand","Output"),
       align="r") %>%
   kable_classic(full_width = F, html_font = "helvetica") %>%
+
   print()
