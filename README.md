@@ -222,7 +222,7 @@ The code needed to generate *Table 3* can be accessed [here](https://github.com/
 
 **Table 3** illustrates cross-industry interdependencies in a simplified economy where two products are produced using the same products and labour.
 
-*Note*: Since there are no taxes (or subsidies) on products and incomes are only calculated at the aggregate level, industry-specific value added figures ($Y_1$, $Y_2$ and $Y_3$) are derived residually (as the difference between total output and the value of inputs employed in each industry).
+*Note*: Since there are no taxes (or subsidies) on products and incomes are only calculated at the aggregate level, industry-specific value added figures ($Y_1$, $Y_2$ and $Y_3$) are derived residually (as differences between output values and the value of inputs employed in each industry).
 
 While figures 6 to 4 show the evolution of model variables over time, Sankey diagrams can be used to take snapshots of the economy in a specific period.
 
