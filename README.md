@@ -138,7 +138,7 @@ The macro-accounting structure of *Model 3IO-PC* is identical to that of Model P
 
 *Note*: The code needed to generate **Table 1** and **Table 2** can be accessed [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/3_BS_TFM_Tables.R).
 
-For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. Under these assumptions, a few additional equations are required to transform *Model PC* (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into *Model 3IO-PC*.
+For simplicity, the three-industry division applies only to the firm sector, not to households. In each industry, a single good is produced using a single production technique. We continue to hypothesise that firms distribute all income either as wages or as profits. Under these assumptions, a few additional equations are required to transform *Model PC* (see [equations (1) to (12)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b2_model_pc)) into *Model 3IO-PC*.
 
 *Note*: Scalars are represented using *italic characters*, whereas vectors and matrices are represented using non-italic characters hereafter.
 
