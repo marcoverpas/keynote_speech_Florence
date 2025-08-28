@@ -262,7 +262,7 @@ Here we consider a simple extension of *Model 3IO-PC*, named *Model ECO-3IO-PC*,
 
 1. A share of durable goods (hence socio-economic stock) is discarded in every period
 
-1. Both waste and emissions are produced only by the firm sector
+1. Emissions are produced only by the firm sector
 
 Behavioural equations draw inspiration from the works of [Dafermos, Nikolaidi, and Galanis (2017, 2018)](https://define-model.org/). The main code of Model ECO-IO-PC is available [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/1_ECO-3IO-PC-Model.R). New variables and coefficients are defined between line 94 and line 133. The blocks providing the additional equations for the ecosystem are those included between line 251 and 334.
 
