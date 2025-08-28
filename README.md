@@ -555,8 +555,8 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 
 - Thomsen, S. F., Raza, H., and Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, 238, 108741. 
 
-- Veronese Passarella, M. (2024). [**Notes for the 17th EAEPE Summer School**](https://github.com/marcoverpas/EAEPE_summer_school_2024). GitHub Repository.
+- Veronese Passarella, M. (2024). [**Notes for the 17th EAEPE Summer School**](https://github.com/marcoverpas/EAEPE_summer_school_2024). GitHub Repository, Sections 1-6.
 
 - Veronese Passarella, M. (2025a). [**Issues in Monetary Policies and Monetary Circuits**](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025). GitHub Repository, Sections B1–B5.
 
-- Veronese Passarella, M. (2025b). [**An Empirically Calibrated IO-SFC Model for Assessing Green Transition Policies in Italy**](https://www.marcopassarella.it/en/an-io-sfc-model-for-the-italian-economy-2/), working paper presented at MADME Conference, Venice, 29-30 May 2025, Sections 1-6.
+- Veronese Passarella, M. (2025b). [**An Empirically Calibrated IO-SFC Model for Assessing Green Transition Policies in Italy**](https://www.marcopassarella.it/en/an-io-sfc-model-for-the-italian-economy-2/), working paper presented at MADME Conference, Venice, 29-30 May 2025.
