@@ -79,7 +79,7 @@ Arguably, when constructing a formal model, best practice is to tailor its featu
 
 To address these challenges, an effective strategy is to develop the model by assembling pre-existing blocks drawn from the literature. This approach enables the creation of a *toy model* suitable for preliminary comparative-dynamics exercises, which can subsequently be adapted to reflect the institutional specificities of the country or area under consideration. 
 
-In this lecture, we will employ three main blocks. The SFC skeleton of the model will be drawn from one of the simplest SFC frameworks, the so-called *Model PC* (see [Godley and Lavoie, 2007, ch. 4](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). The interdependencies across industries will be modelled following the standard IO literature ([Miller and Blair, 2009, chs 1-2](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). Finally, the ecological block will be adapted from [Dafermos, Nikolaidi, and Galanis (2016)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references).
+In this lecture, we will employ three main blocks. The SFC skeleton of the model will be drawn from one of the simplest SFC frameworks, the so-called *Model PC* (see [Godley and Lavoie, 2007, ch. 4](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). The interdependencies across industries will be modelled following the standard IO literature ([Miller and Blair, 2009, chs 1-2](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). Finally, the ecological block will be adapted from [Dafermos, Nikolaidi, and Galanis (2017)](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references).
 
 ### 2.1 - Model PC
 
@@ -264,7 +264,7 @@ Here we consider a simple extension of *Model 3IO-PC*, named *Model ECO-3IO-PC*,
 
 1. Both waste and emissions are produced only by the firm sector
 
-Behavioural equations draw inspiration from the works of [Dafermos, Nikolaidi, and Galanis (2016, 2018)](https://define-model.org/). The main code of Model ECO-IO-PC is available [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/1_ECO-3IO-PC-Model.R). New variables and coefficients are defined between line 94 and line 133. The blocks providing the additional equations for the ecosystem are those included between line 251 and 334.
+Behavioural equations draw inspiration from the works of [Dafermos, Nikolaidi, and Galanis (2017, 2018)](https://define-model.org/). The main code of Model ECO-IO-PC is available [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/1_ECO-3IO-PC-Model.R). New variables and coefficients are defined between line 94 and line 133. The blocks providing the additional equations for the ecosystem are those included between line 251 and 334.
 
 Firstly, extractions of matter and waste are modelled.
 
