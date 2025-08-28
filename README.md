@@ -212,9 +212,9 @@ The simplified input-output matrix of *Model 3IO-PC* is shown in **Table 3**.
 | **Agriculture (production)**                   | \$p_1 \cdot a\_{11} \cdot x_1 \$ | \$p_1 \cdot a\_{12} \cdot x_2 \$   | \$p_1 \cdot a\_{13} \cdot x_3 \$                   | $p_1 \cdot d_1$ |         $p_1 \cdot x_1$         |
 | **Manufacturing (production)**                 | \$p_2 \cdot a\_{21} \cdot x_1 \$ | \$p_2 \cdot a\_{22} \cdot x_2 \$   | \$p_2 \cdot a\_{23} \cdot x_3 \$                   | $p_2 \cdot d_2$ |         $p_2 \cdot x_2$         |
 | **Services&nbsp;&nbsp; (production)**          | \$p_3 \cdot a\_{31} \cdot x_1 \$ | \$p_3 \cdot a\_{32} \cdot x_2 \$   | \$p_3 \cdot a\_{33} \cdot x_3 \$                   | $p_3 \cdot d_3$ |         $p_3 \cdot x_3$         |
-| **Labour income**                              | $WB_1 = w \cdot x_1 / pr_1$      | $WB_2 = $w \cdot x_2 / pr_2$       |  $WB_3 = w \cdot x_3 / pr_3$                       |      $WB$       |                                 |
-| **Capital income**                             |        $PF_1 = Y_1 - WB_1$       |      $PF_2 = Y_2 - WB_2$           |           $PF_3 = Y_3 - WB_3$                      |      $PF$       |                                 |
-| **[Value added]**                              |          $[Y_1]$                 |      $[Y_2]$                       |      $[Y_3]$                                       |       $[Y]$     |                                 |
+| **Value added**                                |          $Y_1$                   |      $Y_2$                         |      $Y_3$                                         |       $Y$       |                                 |
+| *- Labour income*                              | $WB_1 = w \cdot x_1 / pr_1$      | $WB_2 = w \cdot x_2 / pr_2$        |  $WB_3 = w \cdot x_3 / pr_3$                       |      $WB$       |                                 |
+| *- Capital income*                             |        $PF_1 = Y_1 - WB_1$       |      $PF_2 = Y_2 - WB_2$           |           $PF_3 = Y_3 - WB_3$                      |      $PF$       |                                 |
 | **Output**                                     |   $p_1 \cdot x_1$                |   $p_2 \cdot x_2$                  |   $p_3 \cdot x_3$                                  |                 | $\mathrm{p}^T \cdot \mathrm{x}$ |
 
 *Note*: The main `R` code for developing Model *3IO-PC* and conducting experiments can be found [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/0_3IO-PC-Model.R).
