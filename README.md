@@ -559,4 +559,4 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 
 - Veronese Passarella, M. (2025a). [**Issues in Monetary Policies and Monetary Circuits**](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025). GitHub Repository, Sections B1–B5.
 
-- Veronese Passarella, M. (2025b). [**An Empirically Calibrated IO-SFC Model for Assessing Green Transition Policies in Italy**](https://www.marcopassarella.it/en/an-io-sfc-model-for-the-italian-economy-2/), working paper presented at MADME Conference, Venice, 29-30 May 2025.
+- Veronese Passarella, M. (2025b). [**An Empirically Calibrated IO-SFC Model for Assessing Green Transition Policies in Italy**](https://www.marcopassarella.it/en/an-io-sfc-model-for-the-italian-economy-2/), working paper presented at MADME Conference, Venice, 29-30 May 2025, Sections 1-6.
