@@ -1,6 +1,6 @@
 <figure>
 <img
-src="https://github.com/marcoverpas/figures/blob/main/cover_2.png" width="1000">
+src="https://github.com/marcoverpas/figures/blob/main/cover_3.png" width="1000">
 </figure>
 
 ## Overview
