@@ -37,6 +37,8 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 You can access the lecture slides [here](https://www.marcopassarella.it/wp-content/uploads/Presentation_Florence.pdf).
 
+:unlock: :copyright: *Note*: All the material in this repository is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1). You are encouraged to use it for non-commercial purposes, provided that proper credit is given.
+
 ---
 
 ## Abstract
