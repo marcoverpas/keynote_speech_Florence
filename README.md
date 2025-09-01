@@ -132,7 +132,7 @@ The macro-accounting structure of *Model 3IO-PC* is identical to that of Model P
 |                       |Households           |Firms             |Central bank             |Government           | Row. tot |
 |:----------------------|:---------------:    |:----------------:|:--------------:         |:--------------:     |:-------: |
 |                       |                     |                  |                         |                     |          |
-|Consumption            |$$-p_c \cdot c_d$$   |$$p_c \cdot c_s$$ |                         |                     |   0      |
+|Consumption            |$$-p_c \cdot c$$     |$$p_c \cdot c$$   |                         |                     |   0      |
 |Government expenditure |                     |$$p_g \cdot g$$   |                         |$$-p_g \cdot g$$     |   0      |
 |GDP (income)           |$$Y$$                |$$-Y$$            |                         |                     |   0      |
 |Interest payments      |$$r \cdot B_{h,-1}$$ |                  |$$r \cdot B_{cb,-1}$$    |$$-r \cdot B_{s,-1}$$|   0      |
