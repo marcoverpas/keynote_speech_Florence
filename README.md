@@ -465,7 +465,7 @@ One of the advantages of creating formal models using `R` is that they can be co
 </figure>
 <br><br>
 
-Click the link above (or the figure) to open the simulation laboratory for *Model ECO-3IO-PC*.
+Click the link above (or the figure) to open the simulation laboratory for *Model ECO-3IO-PC*. Please wait a few moments while the simulation loads. :hourglass_flowing_sand:
 
 ---
 
@@ -495,7 +495,7 @@ Similarly, CSC interventions can be modelled by assuming that inputs produced fr
 </a>
 </figure><br><br>
 
-Click the link above (or the figure) to launch the additional experiments with *Model ECO-3IO-PC*.
+Click the link above (or the figure) to launch the additional experiments with *Model ECO-3IO-PC*. Please wait a few moments while the simulation loads. :hourglass_flowing_sand:
 
 ---
 
