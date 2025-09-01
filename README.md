@@ -173,6 +173,8 @@ $$**\text{x}** = **\text{A}** \cdot **\text{x}** + **\text{d}**, ~~~ with: ~ **\
                                                                                                                     a_{31} & a_{32} & a_{33}
                                                                                                   \end{array}\right) \quad \text{(16)} $$  
 
+where $a_ij$ (with $i, j = 1, 2, 3$) is defined as the amount of input from sector $i$ required by sector $j$ to produce one unit of its total output.
+
 The modified equation for *national income* (identity) is:
 
 $$Y = **\text{p}^T** \cdot **\text{d}** \quad \text{(1.A)} $$
