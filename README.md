@@ -95,7 +95,7 @@ This is one of the simplest SFC toy models, and we will use it as our benchmark.
 
 ### 2.2 - Model 3IO-PC
 
-There are currently only a few prototype input-output SFC models, despite recent progress (e.g. [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Veronese Passarella, 2023, 2025c](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy ([Hardt and O’Neill, 2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
+There are currently only a few prototype input-output SFC models, despite recent progress (e.g. [Berg et al. 2015](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Veronese Passarella, 2023, 2025c](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy ([Hardt and O’Neill, 2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
 *Model 3IO-PC* is an input-output extension of *Model PC*, where *3IO* stands for "three-industry input-output structure".
 
@@ -537,7 +537,9 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 
 ## References
 
-- Aguilar-Hernandez, G. A., Sigüenza-Sanchez, C. P., Donati, F., Rodrigues, J. F., and Tukker, A. (2018). [**Assessing circularity interventions: a review of EEIOA-based studies**](https://journalofeconomicstructures.springeropen.com/articles/10.1186/s40008-018-0113-3). *Journal of Economic Structures*, 7(14): 1-24.
+- Aguilar-Hernandez, G. A., Sigüenza-Sanchez, C. P., Donati, F., Rodrigues, J. F., and Tukker, A. (2018). [**Assessing circularity interventions: a review of EEIOA-based studies**](https://journalofeconomicstructures.springeropen.com/articles/10.1186/s40008-018-0113-3). *Journal of Economic Structures*, 7 (14): 1-24.
+
+- Berg, M., Hartley, B., and Richters, O. (2015). [**A stock-flow consistent input–output model with applications to energy price shocks, interest rates, and heat emissions**](https://iopscience.iop.org/article/10.1088/1367-2630/17/1/015011/pdf). *New Journal of Physics*, 17, 015011.
 
 - Carnevali, E., Deleidi, M., Pariboni, R., and Veronese Passarella, M. (2019). [**SFC dynamic models: features, limitations and developments**](https://link.springer.com/book/10.1007/978-3-030-23929-9). In: P. Arestis and M. Sawyer (eds.), *Frontiers of Heterodox Economics, Series: International Papers in Political Economy*, Palgrave Macmillan, pp. 223-276.
 
@@ -547,7 +549,7 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 
 - Fevereiro, J. B. R. T., Genovese, A., Valles Codina, O., and Veronese Passarella, M. (2024). [**Scenario Analysis. Policy Briefs**](https://just2ce.eu/wp-content/uploads/2024/11/Attachment_D5.3.pdf). JUST2CE Project, D5.3.
 
-- Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., and Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, Vol. 236, 108669.
+- Fevereiro, J. B. R. T., Genovese, A., Purvis, B., Valles Codina, O., and Veronese Passarella, M. (2025). [**Macroeconomic Models for Assessing the Transition towards a Circular Economy: A Systematic Review**](https://doi.org/10.1016/j.ecolecon.2025.108669). *Ecological Economics*, 236, 108669.
 
 - Georgescu-Roegen, N. (1971). [**The Entropy Law and the Economic Process**](http://dx.doi.org/10.4159/harvard.9780674281653). Harvard University Press.
 
@@ -559,9 +561,9 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 
 - Miller, R. E., and Blair, P. D. (2009). [**Input-Output Analysis: Foundations and Extensions**](https://www.cambridge.org/core/books/inputoutput-analysis/69827DA658E766CD1E17B1A47BA2B9C3). Cambridge University Press, 2nd edition. Chapters 1-2.
 
-- Nikiforos, M., and Zezza, G. (2017). [**Stock-flow Consistent Macroeconomic Models: A Survey**](https://doi.org/10.1111/joes.12221). *Journal of Economic Surveys*, 3(5): 1204-1239.
+- Nikiforos, M., and Zezza, G. (2017). [**Stock-flow Consistent Macroeconomic Models: A Survey**](https://doi.org/10.1111/joes.12221). *Journal of Economic Surveys*, 3 (5): 1204-1239.
 
-- Rivera, G.L., Malliet, P., Saussay, A., and Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157(3): 133-149.  
+- Rivera, G.L., Malliet, P., Saussay, A., and Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157 (3): 133-149.  
 
 - Thomsen, S. F., Raza, H., and Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, 238, 108741. 
 
