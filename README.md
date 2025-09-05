@@ -197,7 +197,7 @@ The *real consumption function* (behavioural equation) is:
 
 $$c = \alpha_1 \cdot \left( \frac{YD}{p_c} - \pi \cdot \frac{V_{-1}}{p_c} \right) + \alpha_2 \cdot \frac{V_{-1}}{p_{c}} \quad \text{(5.A)} $$
 
-where $\pi$ is the rate of growth of the consumer price index (inflation rate), as consumers are assumed not to suffer from monetary illusion.
+where $\pi$ is the rate of growth of the consumer price index (inflation rate), as consumers are assumed not to suffer from monetary illusion (please refer to [Godley and Lavoie, 2007](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references), section 9.3.1).
 
 *Note*: The superscript $T$ stands for the transpose of the matrix, turning a column vector into a row vector. 
 
