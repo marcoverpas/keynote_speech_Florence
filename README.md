@@ -71,7 +71,7 @@ Two alternative frameworks offer a way forward: [demand-driven input-output](htt
 
 - *SFC models* are a class of system dynamics tools developed mainly by post-Keynesian economists. These models integrate flows and stocks across the economy and the environment in a fully consistent manner ([Carnevali et al. 2019](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). They have become increasingly popular in ecological macroeconomics thanks to their flexibility: SFC models can simulate dynamic transitions, test policy scenarios, and explore feedback effects between the economy and the ecosystem. Their limitation is that they typically operate at a high level of aggregation, overlooking inter-industry detail.
 
-For many environmental applications, *combining IO and SFC approaches* can offer the best of both worlds: industrial granularity from IO, dynamic and financial coherence from SFC. This hybrid perspective enables researchers to explore environmental transitions in a way that is both empirically grounded and dynamically rich ([Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Veronese Passarella, 2025c](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
+For many environmental applications, *combining IO and SFC approaches* can offer the best of both worlds: industrial granularity from IO, dynamic and financial coherence from SFC. This hybrid perspective enables researchers to explore environmental transitions in a way that is both empirically grounded and dynamically rich ([Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
 ---
 
@@ -95,7 +95,7 @@ This is one of the simplest SFC toy models, and we will use it as our benchmark.
 
 ### 2.2 - Model 3IO-PC
 
-There are currently only a few prototype input-output SFC models, despite recent progress (e.g. [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy ([Hardt and O’Neill, 2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
+There are currently only a few prototype input-output SFC models, despite recent progress (e.g. [Veronese Passarella, 2023](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Veronese Passarella, 2025c](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). Integrating IO and SFC techniques poses challenges, but it is crucial for analysing the interaction of the ecosystem with the economy ([Hardt and O’Neill, 2017](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
 *Model 3IO-PC* is an input-output extension of *Model PC*, where *3IO* stands for "three-industry input-output structure".
 
@@ -564,6 +564,8 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 - Rivera, G.L., Malliet, P., Saussay, A., and Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157(3): 133-149.  
 
 - Thomsen, S. F., Raza, H., and Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, 238, 108741. 
+
+- Veronese Passarella, M. (2023). [**Technical change and the monetary circuit: an input-output stock-flow consistent dynamic model**](http://repec.deps.unisi.it/quaderni/903.pdf). *Quaderni del Dipartimento di Economia Politica e Statistica - Università di Siena*, n. 903.
 
 - Veronese Passarella, M. (2024). [**Notes for the 17th EAEPE Summer School**](https://github.com/marcoverpas/EAEPE_summer_school_2024). GitHub Repository, Sections 1-6.
 
