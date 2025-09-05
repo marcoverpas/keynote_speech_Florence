@@ -539,7 +539,7 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 
 - Aguilar-Hernandez, G. A., Sigüenza-Sanchez, C. P., Donati, F., Rodrigues, J. F., and Tukker, A. (2018). [**Assessing circularity interventions: a review of EEIOA-based studies**](https://journalofeconomicstructures.springeropen.com/articles/10.1186/s40008-018-0113-3). *Journal of Economic Structures*, 7 (14): 1-24.
 
-- Berg, M., Hartley, B., and Richters, O. (2015). [**A stock-flow consistent input–output model with applications to energy price shocks, interest rates, and heat emissions**](https://iopscience.iop.org/article/10.1088/1367-2630/17/1/015011/pdf). *New Journal of Physics*, 17, 015011.
+- Berg, M., Hartley, B., and Richters, O. (2015). [**A stock-flow consistent input-output model with applications to energy price shocks, interest rates, and heat emissions**](https://iopscience.iop.org/article/10.1088/1367-2630/17/1/015011/pdf). *New Journal of Physics*, 17, 015011.
 
 - Carnevali, E., Deleidi, M., Pariboni, R., and Veronese Passarella, M. (2019). [**SFC dynamic models: features, limitations and developments**](https://link.springer.com/book/10.1007/978-3-030-23929-9). In: P. Arestis and M. Sawyer (eds.), *Frontiers of Heterodox Economics, Series: International Papers in Political Economy*, Palgrave Macmillan, pp. 223-276.
 
