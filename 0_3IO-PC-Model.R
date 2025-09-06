@@ -297,7 +297,7 @@ legend("topright",c("Agriculture","Manufacturing","Services"),  bty = 'n', cex=1
 plot(p_c[1,2:tspan],type="l",lwd=2,col="brown",
      main="Figure 6. Price indexes by sector",
      font.main=1,cex.main=1,
-     ylab = '£',xlab = '',ylim=range(3,4))
+     ylab = '£',xlab = '',ylim=range(0.9,1.1))
 lines(p_g[1,2:tspan],type="l",lwd=2,col="gold3",lty=1)
 legend("topright",c("Consumer","Government"),  bty = 'n', cex=1, lty=c(1,1), lwd=c(2,2), col = c("brown","gold3"), box.lty=0)
 
@@ -361,6 +361,7 @@ plot(period,p_c[2,48:tspan],type="l",lwd=2,col="brown",
      ylab = '£',xlab = '',ylim=range(0.9,1.1))
 lines(period,p_g[2,48:tspan],type="l",lwd=2,col="gold3",lty=1)
 legend("topright",c("Consumer","Government"),  bty = 'n', cex=1, lty=c(1,1), lwd=c(2,2), col = c("brown","gold3"), box.lty=0)
+
 
 
 
