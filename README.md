@@ -568,6 +568,8 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 - Thomsen, S. F., Raza, H., and Byrialsen, M. R. (2025). [**An assessment of carbon taxation policies: The case of Denmark**](https://doi.org/10.1016/j.ecolecon.2025.108741). *Ecological Economics*, 238, 108741. 
 
 - Veronese Passarella, M. (2023). [**Technical change and the monetary circuit: an input-output stock-flow consistent dynamic model**](http://repec.deps.unisi.it/quaderni/903.pdf). *Quaderni del Dipartimento di Economia Politica e Statistica - Università di Siena*, n. 903.
+ 
+- Veronese Passarella, M. (2023). [**Six lectures on SFC models, Central University of Finance and Economics of Beijing**](https://github.com/marcoverpas/Six_lectures_on_sfc_models). GitHub Repository, Sections 1-4.
 
 - Veronese Passarella, M. (2024). [**Notes for the 17th EAEPE Summer School**](https://github.com/marcoverpas/EAEPE_summer_school_2024). GitHub Repository, Sections 1-6.
 
