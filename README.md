@@ -9,17 +9,17 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [1 - Introduction](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#1---introduction)
 
-- [1.1 - Standard Modelling Approaches](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#11---standard-modelling-approaches)
+  - [1.1 - Standard Modelling Approaches](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#11---standard-modelling-approaches)
 
-- [1.2 - Alternative Modelling Approaches](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#12---alternative-modelling-approaches)
+  - [1.2 - Alternative Modelling Approaches](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#12---alternative-modelling-approaches)
 
 - [2 - Assembling Blocks: From Model PC to Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#2---assembling-blocks-from-model-pc-to-model-eco-3io-pc)
 
-- [2.1 - Model PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#21---model-pc)
+  - [2.1 - Model PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#21---model-pc)
 
-- [2.2 - Model 3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#22---model-3io-pc)
+  - [2.2 - Model 3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#22---model-3io-pc)
 
-- [2.3 - Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#23---model-eco-3io-pc)
+  - [2.3 - Model ECO-3IO-PC](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#23---model-eco-3io-pc)
 
 - [3 - Playing with the Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#3---playing-with-the-model)
 
@@ -27,9 +27,9 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [5 - More Advanced Models](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#5---more-advanced-models)
 
-- [5.1 - Circular Economy Intervention in a 2-Area World Economy Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#51---circular-economy-interventions-in-a-2-area-world-economy-model)
+  - [5.1 - Circular Economy Intervention in a 2-Area World Economy Model](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#51---circular-economy-interventions-in-a-2-area-world-economy-model)
 
-- [5.2 - Assessing Green Transition Policies](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#52---assessing-green-transition-policies)
+  - [5.2 - Assessing Green Transition Policies](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#52---assessing-green-transition-policies)
 
 - [6 - Final remarks](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#6---final-remarks)
 
