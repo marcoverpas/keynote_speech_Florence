@@ -35,7 +35,7 @@ This repository accompanies the keynote speech delivered at the [Summer School o
 
 - [References](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/README.md#references)
 
-You can access the **lecture slides** [here](https://www.marcopassarella.it/wp-content/uploads/Presentation_Florence-1.pdf). All code has been developed for an `R` environment. A few prototypes implemented in other languages or environments are available [here](https://github.com/marcoverpas). A table summarising all coding options can be accessed [here](https://github.com/marcoverpas/Six_lectures_on_sfc_models?tab=readme-ov-file#1_introduction).
+You can access the **lecture slides** [here](https://www.marcopassarella.it/wp-content/uploads/Presentation_Florence-1.pdf). All code has been developed for an `R` environment. A few prototypes implemented in other languages or environments are available [here](https://github.com/marcoverpas). A short introduction to SFC models, including a table summarising all coding options, can be accessed [here](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025/blob/main/README.md#b1_introduction_to_sfc_models).
 
 :unlock: :copyright: *Note*: All the material in this repository is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1). You are encouraged to use it for non-commercial purposes, provided that proper credit is given.
 
