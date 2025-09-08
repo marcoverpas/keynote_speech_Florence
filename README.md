@@ -177,7 +177,7 @@ The modified equation for *national income* (identity) is:
 
 $$Y = **\text{p}^T** \cdot **\text{d}** \quad \text{(1.A)} $$
 
-The column vector of *unit prices of reproduction* (behavioural) is:
+The vector of *unit prices of reproduction* (behavioural) is:
 
 $$**\text{p}^T** = \left( \frac{w}{**\text{pr}**} \right)^T + ( **\text{p}**^T \cdot **\text{A}** ) \cdot (1 + \mu) \quad \text{(17)} $$
 
