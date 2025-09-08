@@ -53,8 +53,6 @@ Green Transition • Sustainability • Input-Output Analysis • Stock-Flow Con
 
 ---
 
-:construction: Warning: work in progress!
-
 ## 1 - Introduction
 
 ### 1.1 - Standard Modelling Approaches
