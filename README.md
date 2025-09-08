@@ -179,7 +179,7 @@ $$Y = **\text{p}^T** \cdot **\text{d}** \quad \text{(1.A)} $$
 
 The column vector of *unit prices of reproduction* (behavioural) is:
 
-$$**\text{p}** = \frac{w}{**\text{pr}**} + ( **\text{p}**^T \cdot **\text{A}** ) \cdot (1 + \mu) \quad \text{(17)} $$
+$$**\text{p}^T** = (\frac{w}{**\text{pr}**})^T + ( **\text{p}**^T \cdot **\text{A}** ) \cdot (1 + \mu) \quad \text{(17)} $$
 
 where $w$ is the (uniform) wage rate, $\mathrm{pr}$ is the vector of labour productivities (which are the inverses of the labour coefficients), and $\mu$ is the (uniform) profit rate.
 
