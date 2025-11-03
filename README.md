@@ -69,7 +69,7 @@ Two alternative frameworks offer a way forward: [demand-driven input-output](htt
 
 - *SFC models* are a class of system dynamics tools developed mainly by post-Keynesian economists. These models integrate flows and stocks across the economy and the environment in a fully consistent manner ([Carnevali et al. 2019](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)). They have become increasingly popular in ecological macroeconomics thanks to their flexibility: SFC models can simulate dynamic transitions, test policy scenarios, and explore feedback effects between the economy and the ecosystem. Their limitation is that they typically operate at a high level of aggregation, overlooking inter-industry detail.
 
-For many environmental applications, *combining IO and SFC approaches* can offer the best of both worlds: industrial granularity from IO, dynamic and financial coherence from SFC. This hybrid perspective enables researchers to explore environmental transitions in a way that is both empirically grounded and dynamically rich ([Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
+For many environmental applications, *combining IO and SFC approaches* can offer the best of both worlds: industrial granularity from IO, dynamic and financial coherence from SFC. This hybrid perspective enables researchers to explore environmental transitions in a way that is both empirically grounded and dynamically rich ([Fevereiro et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Thomsen et al. 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references); [Pettena and Raberto, 2025](https://github.com/marcoverpas/keynote_speech_Florence/tree/main?tab=readme-ov-file#references)).
 
 ---
 
@@ -560,6 +560,8 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 - Miller, R. E., and Blair, P. D. (2009). [**Input-Output Analysis: Foundations and Extensions**](https://www.cambridge.org/core/books/inputoutput-analysis/69827DA658E766CD1E17B1A47BA2B9C3). Cambridge University Press, 2nd edition. Chapters 1-2.
 
 - Nikiforos, M., and Zezza, G. (2017). [**Stock-flow Consistent Macroeconomic Models: A Survey**](https://doi.org/10.1111/joes.12221). *Journal of Economic Surveys*, 3 (5): 1204-1239.
+
+- Pettena, M. and Raberto, M. (2025). [**Energy transition and structural change: A calibrated Stock-Flow Consistent Input-Output model**](https://doi.org/10.1016/j.strueco.2025.10.014). *Structural Change and Economic Dynamics*, online. 
 
 - Rivera, G.L., Malliet, P., Saussay, A., and Reynes, F. (2018). [**The State of Applied Environmental Macroeconomics**](https://sciencespo.hal.science/hal-03443474/file/8-157-2018-the-state-of-applied-environmental-macroeconomics-glandarivera.pdf). *Revue de l'OFCE*, 157 (3): 133-149.  
 
