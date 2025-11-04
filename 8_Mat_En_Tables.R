@@ -110,10 +110,10 @@ Ea <-c(round(k_e[1,yr-1], digits = 2),
        round(conv_e[1,yr], digits = 2),
        "",
        "",
-       round(-en[1,yr], digits = 2),
+       round(-nen[1,yr], digits = 2),
        "",
        round(k_e[1,yr], digits = 2),
-       round(k_e[1,yr-1]+conv_e[1,yr]-en[1,yr]-k_e[1,yr], digits = 2)
+       round(k_e[1,yr-1]+conv_e[1,yr]-nen[1,yr]-k_e[1,yr], digits = 2)
        
 )                                                                    
 
@@ -190,4 +190,5 @@ PSFM_Matrix %>%
       col.names = c("Material reserves","Energy reserves","CO2 concentration","Socio-economic stock"),
       align="r") %>%
   kable_classic(full_width = F, html_font = "helvetica")%>%
+
   print()
