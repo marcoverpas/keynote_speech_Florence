@@ -430,7 +430,7 @@ plot(100*(mat[1,2:tspan]/k_m[1,1:(tspan-1)]),type="l",
      col="coral3", lwd=3, lty=1, font.main=1,cex.main=1,
      main="Figure 7. Reserves depletion rates",
      ylab = 'Index (%)',xlab = '',cex.axis=1,cex.lab=1,ylim=range(0.5,2))
-lines(100*(en[1,2:tspan]/k_e[1,1:(tspan-1)]),col="cyan4", lwd=3, lty=1)
+lines(100*(nen[1,2:tspan]/k_e[1,1:(tspan-1)]),col="cyan4", lwd=3, lty=1)
 legend("topright",c("Matter","Energy"),  bty = "n",
        cex=1, lty=c(1,1), lwd=c(3,3), col = c("coral3","cyan4"), box.lty=0)
 
@@ -464,6 +464,7 @@ plot(temp[1,2:tspan],type="l",
      main="Figure 10. Atmospheric temperature",
 
      ylab = 'C',xlab = '',cex.axis=1,cex.lab=1)
+
 
 
 
