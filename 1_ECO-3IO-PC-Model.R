@@ -357,9 +357,9 @@ aerror<-0
 error<-0
 for (j in 1:nScenarios){
   for (i in 2:(nPeriods-1)){
-    error <- error + (h_s[j,i]-h_h[j,i])^2}}
-aerror <- error/(nPeriods*nPeriods)
-if ( aerror<0.01 ){cat(" *********************************** \n Good news! The model is watertight! \n", "Average error =", aerror, "< 0.01 \n", "Cumulative error =", error, "\n ***********************************")} else{
+    error <- error + abs(h_s[j,i]-h_h[j,i])}}
+aerror <- error/(nPeriods*nScenarios)
+if ( aerror<0.1 ){cat(" *********************************** \n Good news! The model is watertight! \n", "Average error =", aerror, "< 0.1 \n", "Cumulative error =", error, "\n ***********************************")} else{
   if ( aerror<1 && aerror<1 ){cat(" *********************************** \n Minor issues with model consistency \n", "Average error =", aerror, "> 0.1 \n", "Cumulative error =", error, "\n ***********************************")}
   else{cat(" ******************************************* \n Warning: the model is not fully consistent! \n", "Average error =", aerror, "> 1 \n", "Cumulative error =", error, "\n *******************************************")} }      
 cat("\n Number of industries =", nIndustries)
@@ -464,6 +464,7 @@ plot(temp[1,2:tspan],type="l",
      main="Figure 10. Atmospheric temperature",
 
      ylab = 'C',xlab = '',cex.axis=1,cex.lab=1)
+
 
 
 
