@@ -64,7 +64,7 @@ legend("topright",c("Agriculture","Manufacturing","Services"),  bty = 'n', cex=1
 plot(period,p_c[2,49:tspan],type="l",lwd=2,col="brown",font.main=1,
      main="Figure 6. Price indexes by sector",
      font.main=1,cex.main=1,
-     ylab = '£',xlab = '',ylim=range(0.9,1.1))
+     ylab = '£',xlab = '',ylim=range(-0.1+min(p_c[2,49:tspan]),0.1+max(p_c[2,49:tspan])))
 lines(period,p_g[2,49:tspan],type="l",lwd=2,col="gold3",lty=1)
 legend("topright",c("Consumer","Government"),  bty = 'n', cex=1, lty=c(1,1), lwd=c(2,2), col = c("brown","gold3"), box.lty=0)
 
@@ -108,3 +108,4 @@ plot(period,temp[2,49:tspan],type="l",
      main="Figure 10. Atmospheric temperature",
 
      ylab = 'C',xlab = '',cex.axis=1,cex.lab=1)
+
