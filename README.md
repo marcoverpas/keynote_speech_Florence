@@ -543,7 +543,7 @@ Ultimately, the ecological transition is not merely a technical challenge, but a
 
 - Dafermos, Y., Nikolaidi, M., and Galanis, G. (2017). [**A stock-flow-fund ecological macroeconomic model**](https://www.sciencedirect.com/science/article/pii/S0921800916301343). *Ecological Economics*, 131: 191-207.
 
-- Dafermos, Y., Nikolaidi, M., and Galanis, G. (2017). [**Climate Change, Financial Stability and Monetary Policy**](https://doi.org/10.1016/j.ecolecon.2018.05.011). *Ecological Economics*, 152: 219-234.
+- Dafermos, Y., Nikolaidi, M., and Galanis, G. (2018). [**Climate Change, Financial Stability and Monetary Policy**](https://doi.org/10.1016/j.ecolecon.2018.05.011). *Ecological Economics*, 152: 219-234.
 
 - Fevereiro, J. B. R. T., Genovese, A., Valles Codina, O., and Veronese Passarella, M. (2024). [**Scenario Analysis. Policy Briefs**](https://just2ce.eu/wp-content/uploads/2024/11/Attachment_D5.3.pdf). JUST2CE Project, D5.3.
 
