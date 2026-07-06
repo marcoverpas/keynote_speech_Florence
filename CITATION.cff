@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Notes for the Keynote Speech at the Summer School on Multiscale Modeling and Ecological Macroeconomics, University of Florence, 2025"
+authors:
+  - family-names: "Veronese Passarella"
+    given-names: "Marco"
+    affiliation: "University of L'Aquila; University of Leeds"
+    orcid: "https://orcid.org/0000-0001-7652-5952"
+date-released: 2025-09-08
+url: "https://github.com/marcoverpas/keynote_speech_Florence"
+repository-code: "https://github.com/marcoverpas/keynote_speech_Florence"
+license: "CC-BY-NC-4.0"
+keywords:
+  - stock-flow consistent models
+  - input-output analysis
+  - ecological macroeconomics
+  - green transition
+  - R
