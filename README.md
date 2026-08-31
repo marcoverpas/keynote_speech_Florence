@@ -3,7 +3,7 @@
 src="https://github.com/marcoverpas/figures/blob/main/cover_4.png" width="1000">
 </figure>
 
-# Modelling the Ecological Transition Through a Simple IO-SFC Model
+# Florence, September 8-10, 2025
 
 [![DOI](https://zenodo.org/badge/1033814537.svg)](https://doi.org/10.5281/zenodo.21219960)
 
