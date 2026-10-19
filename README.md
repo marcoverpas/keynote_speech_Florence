@@ -115,7 +115,7 @@ In comparison to Model PC, additional assumptions include:
 
 1. The composition of both consumption and government spending is exogenously defined
 
-The macro-accounting structure of *Model 3IO-PC* is identical to that of Model PC and is therefore relatively simple. Its key identities are derived from the balance-sheet matrix and the transaction-flow matrix. 
+The macro-accounting structure of *Model 3IO-PC* is identical to that of Model PC and is therefore relatively simple. Its key identities are derived from the balance-sheet matrix and the transactions-flow matrix. 
 
 #### Table 1. Balance sheet matrix  
 
@@ -205,7 +205,7 @@ where $\pi$ is the rate of growth of the consumer price index (inflation rate), 
 
 Equations (`13`) to (`19`) are additional ones. Equations (`1.A`) and (`5.A`) replace equations (`1`) and (`5`) of *Model PC*, respectively. Nominal consumption in equation (`4`) and nominal government spending in equation (`8`) are redefined as $p_c \cdot c$ and $p_g \cdot g$, respectively. 
 
-Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of consumption and disposable income towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model IO-PC also allows for the accounting of the input-output structure of the economy (**Figure 3** and **Figure 4**) and the way prices are set (**Figure 5** and **Figure 6**).
+Using the hidden equation, **Figure 1** demonstrates that the model is watertight, while **Figure 2** illustrates that the evolution of consumption and disposable income towards the steady state exactly matches that of a standard (aggregative) SFC model. However, unlike a standard SFC model, Model 3IO-PC also allows for the accounting of the input-output structure of the economy (**Figure 3** and **Figure 4**) and the way prices are set (**Figure 5** and **Figure 6**).
 
 <figure>
 <img
@@ -236,7 +236,7 @@ The code needed to generate *Table 3* can be accessed [here](https://github.com/
 
 *Note*: Since there are no taxes or subsidies on products, value added is composed solely of labour income (wages) and capital income (distributed profits).
 
-While figures 6 to 4 show the evolution of model variables over time, Sankey diagrams can be used to take snapshots of the economy in a specific period.
+While Figures 1 to 6 show the evolution of model variables over time, Sankey diagrams can be used to take snapshots of the economy in a specific period.
 
 <figure>
 <img
@@ -268,15 +268,17 @@ Here we consider a simple extension of *Model 3IO-PC*, named *Model ECO-3IO-PC*,
 
 1. Industrial CO<sub>2</sub> emissions are associated with the use of non-renewable energy
 
-1. Atmospheric temperature is a growing function of CO<sub>2</sub> emissions
+1. Atmospheric temperature is an increasing function of cumulative CO<sub>2</sub> emissions
 
 1. All goods can be durable or non-durable
+
+1. Only durable consumption goods accumulate in the socio-economic stock, while the material content of non-durable goods and intermediate inputs becomes waste within the period
 
 1. A share of durable goods (hence socio-economic stock) is discarded in every period
 
 1. Emissions are produced only by the firm sector
 
-Behavioural equations draw inspiration from the works of [Dafermos et al. (2017, 2018)](https://define-model.org/). The main code of Model ECO-IO-PC is available [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/1_ECO-3IO-PC-Model.R). New variables and coefficients are defined between line 94 and line 133. The blocks providing the additional equations for the ecosystem are those included between line 251 and 334.
+Behavioural equations draw inspiration from the works of [Dafermos et al. (2017, 2018)](https://define-model.org/). The main code of Model ECO-3IO-PC is available [here](https://github.com/marcoverpas/keynote_speech_Florence/blob/main/1_ECO-3IO-PC-Model.R). New variables and coefficients are defined between line 94 and line 135. The blocks providing the additional equations for the ecosystem are those included between line 253 and 339.
 
 Firstly, extractions of matter and waste are modelled.
 
@@ -304,89 +306,95 @@ where $\text{z}_{dc}$ is the vector defining the percentages of discarded socio-
 
 Stock of *durable goods*:
 
-$$ **\text{dc}** = **\text{dc}_{-1}** + **\text{B}_c** \cdot c - **\text{z}_{dc}** \odot **\text{dc}_{-1}** \quad \text{(24)} $$
+$$ **\text{dc}** = **\text{dc}_{-1}** + \xi_{dc} \odot **\text{B}_c** \cdot c - **\text{z}_{dc}** \odot **\text{dc}_{-1}** \quad \text{(24)} $$
+
+where $\xi_{dc}$ is the vector defining the shares of consumption goods that last more than one period.
+
+Material content of *durable consumption goods* (only durable goods accumulate in the socio-economic stock, whereas the material content of non-durable goods and intermediate inputs becomes waste within the period):
+
+$$ x_{dur} = **\text{m}_{mat}^T** \cdot (\xi_{dc} \odot **\text{B}_c** \cdot c) \quad \text{(25)} $$
 
 *Socioeconomic stock*:
 
-$$k_h = k_{h,-1} + x_{mat} - dis \quad \text{(25)} $$
+$$k_h = k_{h,-1} + x_{dur} - dis \quad \text{(26)} $$
 
 *Waste*:
 
-$$wa = mat - (k_h - k_{h,-1}) \quad \text{(26)} $$
+$$wa = mat - (k_h - k_{h,-1}) \quad \text{(27)} $$
 
 Secondly, energy use and CO<sub>2</sub> emissions are considered.
 
 *Total energy* required for production:
 
-$$en = **\text{e}_{en}^T** \cdot **\text{x}** \quad \text{(27)} $$
+$$en = **\text{e}_{en}^T** \cdot **\text{x}** \quad \text{(28)} $$
 
 where $\text{e}_{en}$ is the vector that defines the energy intensity coefficients by industry.
 
 *Renewable* energy at the end of the period:
 
-$$ren = **\text{e}_{en}^T** \cdot (**\text{a}_{en}** \odot **\text{x}** )    \quad \text{(28)}      $$
+$$ren = **\text{e}_{en}^T** \cdot (**\text{a}_{en}** \odot **\text{x}** )    \quad \text{(29)}      $$
 
 where $\text{a}_{en}$ is the vector that defines the industry-specific shares of renewable energy to total energy.
 
 *Non-renewable* energy:
 
-$$nen = en - ren \quad \text{(29)} $$
+$$nen = en - ren \quad \text{(30)} $$
 
 Annual flow of *CO<sub>2</sub> emissions*:
 
-$$emis = \beta_{e} \cdot nen \quad \text{(30)} $$
+$$emis = \beta_{e} \cdot nen \quad \text{(31)} $$
 
 where $\beta_{e}$ is the CO<sub>2</sub> intensity coefficient of non-renewable energy sources.
 
 *Cumulative* emissions:
 
-$$co2_{cum} = co2_{cum,-1} + emis \quad \text{(31)} $$
+$$co2_{cum} = co2_{cum,-1} + emis \quad \text{(32)} $$
 
 Atmospheric *temperature*:
 
-$$temp = \frac{1}{1-fnc} \cdot tcre \cdot co2_{cum} \quad \text{(32)} $$
+$$temp = \frac{1}{1-fnc} \cdot tcre \cdot \frac{co2_{cum}}{car} \quad \text{(33)} $$
 
-where $fnc$ is the non-CO<sub>2</sub> fraction of total anthropocentric forcing and $tcre$ is the transient climate response to cumulative carbon emissions.
+where $fnc$ is the non-CO<sub>2</sub> fraction of total anthropogenic forcing, $tcre$ is the transient climate response to cumulative carbon emissions (in °C per $Gt$ of carbon), and $car$ (defined below) converts cumulative emissions from $Gt$ of CO<sub>2</sub> into $Gt$ of carbon.
 
 Thirdly, the dynamics of reserves is modelled.
 
 Stock of *matter reserves*:
 
-$$k_m = k_{m,-1} + conv_m - mat \quad \text{(33)} $$
+$$k_m = k_{m,-1} + conv_m - mat \quad \text{(34)} $$
 
 Matter resources *converted* to reserves:
 
-$$conv_m = \sigma_{m} \cdot res_m \quad \text{(34)} $$
+$$conv_m = \sigma_{m} \cdot res_m \quad \text{(35)} $$
 
 where $\sigma_{m}$ is the conversion rate of matter resources into reserves.
 
 Stock of *matter resources*:
 
-$$res_m = res_{m,-1} - conv_m \quad \text{(35)} $$
+$$res_m = res_{m,-1} - conv_m \quad \text{(36)} $$
 
 *Carbon mass* of non-renewable energy:
 
-$$cen = \frac{emis}{car} \quad \text{(36)} $$
+$$cen = \frac{emis}{car} \quad \text{(37)} $$
 
 where $car$ is the coefficient converting $Gt$ of carbon into $Gt$ of CO<sub>2</sub>.
 
 Mass of *oxygen*:
 
-$$o2 = emis - cen \quad \text{(37)} $$
+$$o2 = emis - cen \quad \text{(38)} $$
 
 Stock of *energy reserves*:
 
-$$k_e = k_{e,-1} + conv_e - nen \quad \text{(38)} $$
+$$k_e = k_{e,-1} + conv_e - nen \quad \text{(39)} $$
 
 Energy resources *converted* to reserves:
 
-$$conv_e = \sigma_e \cdot res_e \quad \text{(39)} $$
+$$conv_e = \sigma_e \cdot res_e \quad \text{(40)} $$
 
 where $\sigma_e$ is the conversion rate of energy resources into reserves.
 
 Stock of *energy resources*:
 
-$$res_e = res_{e,-1} - conv_e \quad \text{(40)} $$
+$$res_e = res_{e,-1} - conv_e \quad \text{(41)} $$
 
 Lastly, feedback effects and damages can be introduced. Here the assumption is made that the propensity to consume out of income is (negatively) influenced by climate change.
 
@@ -413,6 +421,7 @@ The related physical constraints (used to define ecosystem identities) are displ
 |**OUTPUTS**                    |                |                |
 |Industrial CO2 emissions       |$$-emis$$       |                |
 |Discarded socio-economic stock |$$-dis$$        |                |
+|Non-durable goods and intermediate inputs |$$-(x_{mat}-x_{dur})$$ |   |
 |Dissipated energy              |                |$$-en$$        |
 |Change in socio-economic stock |$$-\Delta k_h $$|                |
 |                               |                |                |
@@ -427,7 +436,7 @@ The related physical constraints (used to define ecosystem identities) are displ
 |**INITIAL STOCK**                    |$$k_{m,-1}$$ |$$k_{e,-1}$$ |$$co2_{cum,-1}$$ |$$k_{h,-1}$$|
 |Resources converted into reserves    |$$conv_m$$   |$$conv_e$$   |                 |            |
 |CO<sub>2</sub> emissions             |             |             |$$emis $$        |            |
-|Production of material goods         |             |             |                 |$$x_{mat} $$|
+|Production of durable consumption goods |          |             |                 |$$x_{dur} $$|
 |Extraction of matter / use of energy |$$-mat$$     |$$-nen $$    |                 |            |
 |Destruction of socio-economic stock  |             |             |                 |$$-dis$$    |
 |**FINAL STOCK**                      |$$k_m$$      |$$k_e$$      |$$co2_{cum}$$    |$$k_h$$     |
