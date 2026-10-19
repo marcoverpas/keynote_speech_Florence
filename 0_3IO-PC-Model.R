@@ -138,10 +138,10 @@ for (j in 1:nScenarios){
       
       # C) Input-output structure ####
       
-      # Real final demand vector by industry - eq. 14
+      # Real final demand vector by industry - eq. 15
       d[j,i,] = beta_c[j,i,]*cons[j,i] + beta_g[j,i,]*g[j,i]
       
-      # Real gross output by industry  - eq. 15
+      # Real gross output by industry  - eq. 16
       x[j,i,] = solve(I-A) %*% d[j,i,]
       
       # Value of net output (GDP)  - eq. 1.A

@@ -131,6 +131,7 @@ ws <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Wage share
 
 # Variables
 x_mat <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Production of material goods 
+x_dur <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Material content of durable consumption goods (only durables feed the socio-economic stock)
 mat <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Extracted matter  
 rec <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Recycled socio-economic stock  
 dis <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Discarded socioeconomic stock            
@@ -167,8 +168,8 @@ eta1_en <- 0.12 #Initial value of eta_en_1
 eta2_en <- 0.15 #Initial value of eta_en_2 
 eta3_en <- 0.18 #Initial value of eta_en_3 
 g0_beta_e <- 0.002 #Initial value of g_beta_e
-tcre <- 1.65/1000 #Transient climate response to cumulative carbon emissions
-fnc <- 0.34 #Non-CO2 fraction of total anthropocentric forcing
+tcre <- 1.65/1000 #Transient climate response to cumulative carbon emissions (degrees C per GtC)
+fnc <- 0.34 #Non-CO2 fraction of total anthropogenic forcing
 sigma_m <- 0.0005 #Conversion rate of matter resources into reserves
 car <- 3.67 #Coefficient converting Gt of carbon into Gt of CO2
 sigma_e <- 0.003 #Conversion rate of energy resources into reserves
@@ -224,6 +225,9 @@ eta_en[,,3]=eta3_en
 # Add a convergence tolerance and a vector to record iterations
 tol <- 1e-6 # Convergence tolerance
 iter_used <- array(0, dim=c(nScenarios, nPeriods)) # Record iterations used per scenario and period
+
+# Load the progress-bar package (added: it was used but not loaded)
+library(progress)
 
 # Create a progress bar ####
 pb <- progress_bar$new( total = nScenarios * nPeriods,
@@ -361,10 +365,10 @@ for (j in 1:nScenarios){
       
       # C) Input-output structure ####
       
-      # Real final demand vector by industry - eq. 14
+      # Real final demand vector by industry - eq. 15
       d[j,i,] = beta_c[j,i,]*cons[j,i] + beta_g[j,i,]*g[j,i]
       
-      # Real gross output by industry  - eq. 15
+      # Real gross output by industry  - eq. 16
       x[j,i,] = solve(I-A) %*% d[j,i,]
       
       # Value of net output (GDP)  - eq. 1.A
@@ -452,8 +456,11 @@ for (j in 1:nScenarios){
       # Monetary value of stock of durable consumption goods                 
       DC[j,i] = t(p[j,i,]) %*% dc[j,i,]    
       
-      # Socioeconomic stock
-      kh[j,i] = kh[j,i-1] + x_mat[j,i] - dis[j,i]       
+      # Material content of durable consumption goods (only durables feed the socio-economic stock)
+      x_dur[j,i] = t(mu_mat[j,i,]) %*% (xi_dc[j,i,] * beta_c[j,i,]*cons[j,i])
+      
+      # Socioeconomic stock (non-durable goods and intermediate inputs become waste within the period)
+      kh[j,i] = kh[j,i-1] + x_dur[j,i] - dis[j,i]       
       
       # Wasted socio-economic stock
       wa[j,i] = mat[j,i] - (kh[j,i]-kh[j,i-1])                                                                     
@@ -483,7 +490,7 @@ for (j in 1:nScenarios){
       co2_cum[j,i] = co2_cum[j,i-1] + emis[j,i]
       
       # Atmospheric temperature 
-      temp[j,i] = (1/(1-fnc))*tcre*(co2_cum[j,i])
+      temp[j,i] = (1/(1-fnc))*tcre*(co2_cum[j,i]/car) # co2_cum (GtCO2) converted into GtC, since tcre is per GtC
       
       
       # Resources and reserves #### 
@@ -504,7 +511,7 @@ for (j in 1:nScenarios){
       o2[j,i] = emis[j,i] - cen[j,i]                                      
       
       # Stock of energy reserves
-      k_e[j,i] = k_e[j,i-1] + conv_e[j,i] - en[j,i]                       
+      k_e[j,i] = k_e[j,i-1] + conv_e[j,i] - nen[j,i]                       # only non-renewable energy depletes energy reserves
       
       # Energy resources converted to reserves 
       conv_e[j,i] = sigma_e*res_e[j,i]                                    

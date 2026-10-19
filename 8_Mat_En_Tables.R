@@ -22,6 +22,7 @@ rownames<-c( "INPUTS",
              "OUTPUTS",
              "Industrial CO2 emissions",
              "Discarded socio-economic stock",
+             "Non-durable goods and intermediate inputs",
              "Dissipated energy",
              "Change in socio-economic stock",
              "Tot")
@@ -36,10 +37,11 @@ M <-c("",
       "",
       round(-emis[1,yr], digits = 2),
       round(-dis[1,yr], digits = 2),
+      round(-(x_mat[1,yr]-x_dur[1,yr]), digits = 2),
       "",
       round(-kh[1,yr]+kh[1,yr-1], digits = 2),
       round(mat[1,yr]+rec[1,yr]+cen[1,yr]+o2[1,yr]+
-              -emis[1,yr]-dis[1,yr]-kh[1,yr]+kh[1,yr-1]  , digits = 2)
+              -emis[1,yr]-dis[1,yr]-(x_mat[1,yr]-x_dur[1,yr])-kh[1,yr]+kh[1,yr-1]  , digits = 2)
       
 )                                                                    
 
@@ -55,6 +57,7 @@ E <-c("",
       "",
       round(ren[1,yr], digits = 2),
       round(nen[1,yr], digits = 2),
+      "",
       "",
       "",
       "",
@@ -81,7 +84,7 @@ kable(PFM_Matrix) #Unload kableExtra to use this
 rownames<-c( "INITIAL STOCK",
              "Resources converted into reserves",
              "CO2 emissions",
-             "Production of material goods",
+             "Production of durable consumption goods",
              "Extraction of matter / use of energy",
              "Destruction of socio-economic stock",
              "FINAL STOCK",
@@ -145,11 +148,11 @@ kable(CO2_PSFM)
 SES <-c(round(kh[1,yr-1], digits = 2),
         "",
         "",
-        round(x_mat[1,yr], digits = 2),
+        round(x_dur[1,yr], digits = 2),
         "",
         round(-dis[1,yr], digits = 2),
         round(kh[1,yr], digits = 2),
-        round(kh[1,yr-1]+x_mat[1,yr]-dis[1,yr]-kh[1,yr], digits = 2)
+        round(kh[1,yr-1]+x_dur[1,yr]-dis[1,yr]-kh[1,yr], digits = 2)
         
 )                                                                    
 

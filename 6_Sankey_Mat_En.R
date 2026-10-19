@@ -26,7 +26,8 @@ nodes = data.frame("name" =
                        "CO₂ emissions", # Node 8
                        "Discarded stock", #Node 9
                        "Dissipated energy", #Node 10
-                       "Change in socio-economic stock" #Node 11
+                       "Change in socio-economic stock", #Node 11
+                       "Waste from non-durable goods and intermediate inputs" #Node 12
                      )) 
 
 # Create the flows ####
@@ -39,6 +40,7 @@ links = as.data.frame(matrix(c(
   7, 0, o2[1,yr],
   0, 11, kh[1,yr] - kh[1,yr-1],
   0, 9, dis[1,yr],
+  0, 12, x_mat[1,yr] - x_dur[1,yr],
   0, 8, emis[1,yr],
   
   # Energy

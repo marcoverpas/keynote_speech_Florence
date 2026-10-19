@@ -95,6 +95,7 @@ infl <- matrix(data=1,nrow=nScenarios,ncol=nPeriods) #Inflation tax (see Godley 
 
 # Variables
 x_mat <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Production of material goods 
+x_dur <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Material content of durable consumption goods (only durables feed the socio-economic stock)
 mat <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Extracted matter  
 rec <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Recycled socio-economic stock  
 dis <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Discarded socioeconomic stock            
@@ -121,13 +122,14 @@ emis_by_ind <- array(data=1,dim=c(nScenarios,nPeriods,nIndustries)) #Annual emis
 # Coefficients
 rho_dis <- 0.2 #Recycling rate
 g_beta_e <- 0.01 #Declining rate of CO2 intensity of non-renewable energy sources (quite high!)
-tcre <- 1.65/1000 #Transient climate response to cumulative carbon emissions
-fnc <- 0.34 #Non-CO2 fraction of total anthropocentric forcing
+tcre <- 1.65/1000 #Transient climate response to cumulative carbon emissions (degrees C per GtC)
+fnc <- 0.34 #Non-CO2 fraction of total anthropogenic forcing
 sigma_m <- 0.0005 #Conversion rate of matter resources into reserves
 car <- 3.67 #Coefficient converting Gt of carbon into Gt of CO2
 sigma_e <- 0.003 #Conversion rate of energy resources into reserves
 mu_mat <- matrix(data=c(0.4,0.7,0.3),nrow=nIndustries,ncol=1) #Material intensity coefficients by industry
 zeta_dc <- matrix(data=c(0.025,0.035,0.020),nrow=nIndustries,ncol=1) #Percentages of discarded socio-economic stock by industry
+xi_dc <- matrix(data=c(0.05,0.50,0.01),nrow=nIndustries,ncol=1) #Shares of consumption goods that are durable
 eps_en <- matrix(data=c(8,6,3),nrow=nIndustries,ncol=1) #Energy intensity coefficients by industry                                          
 eta_en <- matrix(data=c(0.12,0.15,0.18),nrow=nIndustries,ncol=1) #Shares of renewable energy in total energy by industry       
 alpha12 <- matrix(data=0,nrow=nScenarios,ncol=nPeriods) #Temperature elasticity of propensity to consume out of income
@@ -179,10 +181,10 @@ for (j in 1:nScenarios){
       
       # C) Input-output structure ####
       
-      # Real final demand vector by industry - eq. 14
+      # Real final demand vector by industry - eq. 15
       d[j,i,] = beta_c[j,i,]*cons[j,i] + beta_g[j,i,]*g[j,i]
       
-      # Real gross output by industry  - eq. 15
+      # Real gross output by industry  - eq. 16
       x[j,i,] = solve(I-A) %*% d[j,i,]
       
       # Value of net output (GDP)  - eq. 1.A
@@ -265,10 +267,13 @@ for (j in 1:nScenarios){
       dis[j,i] = t(mu_mat[,]) %*% (zeta_dc[,] * dc[j,i-1,])
       
       # Stock of durable consumption goods                 
-      dc[j,i,] = dc[j,i-1,] + beta_c[j,i,]*cons[j,i] - zeta_dc[,] * dc[j,i-1,]    
+      dc[j,i,] = dc[j,i-1,] + xi_dc[,] * beta_c[j,i,]*cons[j,i] - zeta_dc[,] * dc[j,i-1,]    # only the durable share of consumption (xi_dc) is accumulated
       
-      # Socioeconomic stock
-      kh[j,i] = kh[j,i-1] + x_mat[j,i] - dis[j,i]       
+      # Material content of durable consumption goods (only durables feed the socio-economic stock)
+      x_dur[j,i] = t(mu_mat[,]) %*% (xi_dc[,] * beta_c[j,i,]*cons[j,i])
+      
+      # Socioeconomic stock (non-durable goods and intermediate inputs become waste within the period)
+      kh[j,i] = kh[j,i-1] + x_dur[j,i] - dis[j,i]       
       
       # Wasted socio-economic stock
       wa[j,i] = mat[j,i] - (kh[j,i]-kh[j,i-1])                                                                     
@@ -298,7 +303,7 @@ for (j in 1:nScenarios){
       co2_cum[j,i] = co2_cum[j,i-1] + emis[j,i]
       
       # Atmospheric temperature 
-      temp[j,i] = (1/(1-fnc))*tcre*(co2_cum[j,i])
+      temp[j,i] = (1/(1-fnc))*tcre*(co2_cum[j,i]/car) # co2_cum (GtCO2) converted into GtC, since tcre is per GtC
       
       
       # Resources and reserves #### 
